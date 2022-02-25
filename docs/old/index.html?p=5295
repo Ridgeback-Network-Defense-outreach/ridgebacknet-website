@@ -9,8 +9,8 @@
 Key Features &#8211; Ridgeback</title>
  <meta name='robots' content='max-image-preview:large' />
  <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
- <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Feed" href="https://ridgebacknet.com/feed/" />
- <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Comments Feed" href="https://ridgebacknet.com/comments/feed/" />
+ <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Feed" href="/feed/" />
+ <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Comments Feed" href="/comments/feed/" />
  <link rel='dns-prefetch' href='//ridgeback.proceziodevp.in'>
 
 <link rel='dns-prefetch' href='//fonts.gstatic.com'>
@@ -26,22 +26,22 @@ window.swift_performance_collectdomready = [];window.swift_performance_collectre
 var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.php","like":"Like","unlike":"Unlike"};
 /* ]]> */
 </script>
- <link rel="https://api.w.org/" href="https://ridgebacknet.com/wp-json/" />
-<link rel="alternate" type="application/json" href="https://ridgebacknet.com/wp-json/wp/v2/pages/5295" />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ridgebacknet.com/xmlrpc.php?rsd" />
- <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ridgebacknet.com/wp-includes/wlwmanifest.xml" />
+ <link rel="https://api.w.org/" href="/wp-json/" />
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5295" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
  <meta name="generator" content="WordPress 5.8.3" />
- <link rel="canonical" href="https://ridgebacknet.com/key-features/" />
- <link rel='shortlink' href='https://ridgebacknet.com/?p=5295' />
- <link rel="alternate" type="application/json+oembed" href="https://ridgebacknet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fkey-features%2F" />
- <link rel="alternate" type="text/xml+oembed" href="https://ridgebacknet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fkey-features%2F&#038;format=xml" />
+ <link rel="canonical" href="/key-features/" />
+ <link rel='shortlink' href='/?p=5295' />
+ <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fkey-features%2F" />
+ <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fkey-features%2F&#038;format=xml" />
  <meta name="generator" content="Powered by Slider Revolution 6.5.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
  <link rel="prefetch" href="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/js/7ce9b7c6b434603bbd0bce067355bbd9.js" as="script" crossorigin>
 <script data-dont-merge="">
 (function(){function iv(a){if(a.nodeName=='SOURCE'){a = a.nextSibling;}if(typeof a !== 'object' || a === null || typeof a.getBoundingClientRect!=='function'){return false}var b=a.getBoundingClientRect();return((a.innerHeight||a.clientHeight)>0&&b.bottom+50>=0&&b.right+50>=0&&b.top-50<=(window.innerHeight||document.documentElement.clientHeight)&&b.left-50<=(window.innerWidth||document.documentElement.clientWidth))}function ll(){var a=document.querySelectorAll('[data-swift-image-lazyload]');for(var i in a){if(iv(a[i])){a[i].onload=function(){window.dispatchEvent(new Event('resize'));};try{if(a[i].nodeName == 'IMG'){a[i].setAttribute('src',(typeof a[i].dataset.src != 'undefined' ? a[i].dataset.src : a[i].src))};a[i].setAttribute('srcset',(typeof a[i].dataset.srcset !== 'undefined' ? a[i].dataset.srcset : ''));a[i].setAttribute('sizes',(typeof a[i].dataset.sizes !== 'undefined' ? a[i].dataset.sizes : ''));a[i].setAttribute('style',(typeof a[i].dataset.style !== 'undefined' ? a[i].dataset.style : ''));a[i].removeAttribute('data-swift-image-lazyload')}catch(e){}}}requestAnimationFrame(ll)}requestAnimationFrame(ll)})();</script>
 </head>
  <body class="page-template-default page page-id-5295 royal_preloader elementor-default elementor-kit-6 elementor-page elementor-page-5295 engitech-theme-ver-1.3.1 wordpress-version-5.8.3">
- <div id="royal_preloader" data-width="175" data-height="50" data-url="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1.png" data-color="#0a0f2b" data-bgcolor="#000000">
+ <div id="royal_preloader" data-width="175" data-height="50" data-url="/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1.png" data-color="#0a0f2b" data-bgcolor="#000000">
 </div>
 <div id="page" class="site">
  <!-- #site-header-open -->
@@ -57,8 +57,8 @@ var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.p
  <div class="elementor-element elementor-element-7b3283e6 elementor-widget elementor-widget-ilogo" data-id="7b3283e6" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <a href="/">
+ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="/wp-content/uploads/2021/03/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </a>
  </div>
  </div>
@@ -76,15 +76,15 @@ var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.p
 Engage the Attacker</a>
 </li>
  <li id="menu-item-5342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5342">
-<a href="https://ridgebacknet.com/why-ridgeback/">
+<a href="/why-ridgeback/">
 Why Ridgeback?</a>
 </li>
  <li id="menu-item-5407" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5295 current_page_item menu-item-5407">
-<a href="https://ridgebacknet.com/key-features/" aria-current="page">
+<a href="/key-features/" aria-current="page">
 Key Features</a>
 </li>
  <li id="menu-item-5572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5572">
-<a href="https://ridgebacknet.com/product/">
+<a href="/product/">
 Product</a>
 </li>
  </ul>
@@ -118,7 +118,7 @@ Product</a>
  <div class="elementor-element elementor-element-6bdfe4fd elementor-widget elementor-widget-ilogo" data-id="6bdfe4fd" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
+ <a href="/">
  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Ridgeback" data-src="https://ridgeback.proceziodevp.in/wp-content/uploads/2021/09/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="height:50" data-l>
  </a>
  </div>
@@ -150,15 +150,15 @@ Product</a>
 Engage the Attacker</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5342">
-<a href="https://ridgebacknet.com/why-ridgeback/">
+<a href="/why-ridgeback/">
 Why Ridgeback?</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5295 current_page_item menu-item-5407">
-<a href="https://ridgebacknet.com/key-features/" aria-current="page">
+<a href="/key-features/" aria-current="page">
 Key Features</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5572">
-<a href="https://ridgebacknet.com/product/">
+<a href="/product/">
 Product</a>
 </li>
  </ul>
@@ -189,7 +189,7 @@ Product</a>
  </div>
  <!-- #side-panel-close -->
  <div id="content" class="site-content">
- <div class="page-header flex-middle" style="background-image: url(https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-84.png);" >
+ <div class="page-header flex-middle" style="background-image: url(/wp-content/uploads/2021/09/Untitled-design-84.png);" >
  <div class="container">
  <div class="inner flex-middle">
  <h1 class="page-title">
@@ -229,7 +229,7 @@ Ridgeback’s Suite Of Unique Features</h2>
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-13dc5b4 elementor-widget elementor-widget-image" data-id="13dc5b4" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAGBAQFBAQGBQUFBgYGBwkOCQkICAkSDQ0KDhUSFhYVEhQUFxohHBcYHxkUFB0nHR8iIyUlJRYcKSwoJCshJCUk/9sAQwEGBgYJCAkRCQkRJBgUGCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQk/8AAEQgAFAAUAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+dk0EyQmRQO2Bzk1n3FgISeoI7V3ug65ZW0WyeGOdSvKuSB09QQaw/Feo6RdBBp2nR2smcuwkds9ePmJA/8ArV69bDUlT500eDQxlZ1nTlF276WOSaMA0U92y1FeZZHspsBdzAYDcVG80jdWJooobY1FDNxoooqCz//Z" title="shutterstock_789107032" alt="shutterstock_789107032" data-src="https://ridgebacknet.com/wp-content/uploads/2022/01/shutterstock_789107032.jpeg" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAGBAQFBAQGBQUFBgYGBwkOCQkICAkSDQ0KDhUSFhYVEhQUFxohHBcYHxkUFB0nHR8iIyUlJRYcKSwoJCshJCUk/9sAQwEGBgYJCAkRCQkRJBgUGCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQk/8AAEQgAFAAUAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+dk0EyQmRQO2Bzk1n3FgISeoI7V3ug65ZW0WyeGOdSvKuSB09QQaw/Feo6RdBBp2nR2smcuwkds9ePmJA/8ArV69bDUlT500eDQxlZ1nTlF276WOSaMA0U92y1FeZZHspsBdzAYDcVG80jdWJooobY1FDNxoooqCz//Z" title="shutterstock_789107032" alt="shutterstock_789107032" data-src="/wp-content/uploads/2022/01/shutterstock_789107032.jpeg" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </div>
  </div>
  </div>
@@ -296,7 +296,7 @@ Shape the network to be impossibly hostile to the adversary. Impair them as they
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-145b09c elementor-widget elementor-widget-image" data-id="145b09c" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAGBAQFBAQGBQUFBgYGBwkOCQkICAkSDQ0KDhUSFhYVEhQUFxohHBcYHxkUFB0nHR8iIyUlJRYcKSwoJCshJCUk/9sAQwEGBgYJCAkRCQkRJBgUGCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQk/8AAEQgAFAAUAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A5eTxLdW8aTPKxQjkA85NV08a3U0yxKzKWbH3s1z94TdwGLdjkEH0qlZWbxTiWSVTsPAHNfQzjLmSWx8nQdJ0nKo/eOvPiXVMnlvyorF+1H1orT2Xmc3t3/KjPDEimox5+tFFUNbMXeaKKKYWP//Z" title="shutterstock_194159783 (1)" alt="shutterstock_194159783 (1)" data-src="https://ridgebacknet.com/wp-content/uploads/2022/01/shutterstock_194159783-1.jpeg" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODIK/9sAQwAGBAQFBAQGBQUFBgYGBwkOCQkICAkSDQ0KDhUSFhYVEhQUFxohHBcYHxkUFB0nHR8iIyUlJRYcKSwoJCshJCUk/9sAQwEGBgYJCAkRCQkRJBgUGCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQk/8AAEQgAFAAUAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A5eTxLdW8aTPKxQjkA85NV08a3U0yxKzKWbH3s1z94TdwGLdjkEH0qlZWbxTiWSVTsPAHNfQzjLmSWx8nQdJ0nKo/eOvPiXVMnlvyorF+1H1orT2Xmc3t3/KjPDEimox5+tFFUNbMXeaKKKYWP//Z" title="shutterstock_194159783 (1)" alt="shutterstock_194159783 (1)" data-src="/wp-content/uploads/2022/01/shutterstock_194159783-1.jpeg" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </div>
  </div>
  </div>
@@ -309,7 +309,7 @@ Shape the network to be impossibly hostile to the adversary. Impair them as they
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-a042ac6 elementor-widget elementor-widget-image" data-id="a042ac6" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img width="789" height="495" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBAX/xAAnEAACAgAFAwMFAAAAAAAAAAABAgMEAAURIUEGMWESE7EUFiNCgf/EABUBAQEAAAAAAAAAAAAAAAAAAAIF/8QAIREAAQIEBwAAAAAAAAAAAAAAAQACBBITIQMFERVBgaH/2gAMAwEAAhEDEQA/AJH05mtHLFWzQzN6F2tOWhnijYsQVHfjbjQcnXG+v9uWenM8lsX0mzQ2Yvp5ZYWDFNSWO3byN8MfTFZa1eSLRXLyFixXfXQD4Ax3Y8nrexLXC+mORtXA/Y/PGKpzKGlAdha9oiHfw5SOdOn2f8l2w0gADME0BPjbtx/MGHfObhpZlNAsMTBNNyvgYMLcYY3pelGg8WmX/9k=" class="attachment-full size-full" alt="" data-src="https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4.jpg" data-srcset="https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4.jpg 789w, https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4-300x188.jpg 300w, https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4-768x482.jpg 768w, https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4-720x452.jpg 720w, https://ridgebacknet.com/wp-content/uploads/2021/10/RB_4-20x13.jpg 20w" data-sizes="(max-width: 789px) 100vw, 789px" data-swift-image-lazyload="true" data-style="" style="height:495px" data-l>
+ <img width="789" height="495" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBAX/xAAnEAACAgAFAwMFAAAAAAAAAAABAgMEAAURIUEGMWESE7EUFiNCgf/EABUBAQEAAAAAAAAAAAAAAAAAAAIF/8QAIREAAQIEBwAAAAAAAAAAAAAAAQACBBITIQMFERVBgaH/2gAMAwEAAhEDEQA/AJH05mtHLFWzQzN6F2tOWhnijYsQVHfjbjQcnXG+v9uWenM8lsX0mzQ2Yvp5ZYWDFNSWO3byN8MfTFZa1eSLRXLyFixXfXQD4Ax3Y8nrexLXC+mORtXA/Y/PGKpzKGlAdha9oiHfw5SOdOn2f8l2w0gADME0BPjbtx/MGHfObhpZlNAsMTBNNyvgYMLcYY3pelGg8WmX/9k=" class="attachment-full size-full" alt="" data-src="/wp-content/uploads/2021/10/RB_4.jpg" data-srcset="/wp-content/uploads/2021/10/RB_4.jpg 789w, /wp-content/uploads/2021/10/RB_4-300x188.jpg 300w, /wp-content/uploads/2021/10/RB_4-768x482.jpg 768w, /wp-content/uploads/2021/10/RB_4-720x452.jpg 720w, /wp-content/uploads/2021/10/RB_4-20x13.jpg 20w" data-sizes="(max-width: 789px) 100vw, 789px" data-swift-image-lazyload="true" data-style="" style="height:495px" data-l>
  </div>
  </div>
  </div>
@@ -390,7 +390,7 @@ Impair the intruder and neutralize threats immediately so no harm can come to yo
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-30529d5 elementor-widget elementor-widget-image" data-id="30529d5" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img width="444" height="379" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD5klEQVQ4jZ2UT2xUVRTGf/e91w6dmU47YyltoZWKCIWW/yAFoTuJLoCQYEgMC0zYaAguXLgxwUTjxphoMHFnYgwGEtlUQgj/CigCISyAQmlLh+IwdKYzrzOvM/Nm3ntzr4tpa6mg0S+5m3Pv/e455zvfFY7jKYECIQDI5yyiIyOEw/UsbH0ZMRV/McTUAiEUhhDgui75XAYpFd9/9w0Dg8N0repie08Pq9dvxc5N4HklgnWN6LqBEAKl1KzH1Ay9BpCIPyI6dJt0cpRAqJZg0E90eIjRkWFcO43PZ4B0sdIxivkJPKeALHsopeami8hMmCo6fId0OsXYWALHcVjV1UVbWyu1dWEGHwwSCgWRUnLt6lVM08Qrw6aNG1i2ogN/MIJvXmCqZIE488uP6uKFqzx69JhFi9qoD0eoDfrZs3cPLzU0MJnLc7q3l7NnzlIzr4bGBc2UpWTk4TCNTQv49LMj+P31+GoCFcIPDx1UbYuXs/edfUQiEXRdJzH2lN6Tx+je0s2du3e5/vsNXCl4c8dbrF23gdpQiFKxyG9X+hhPxNj/7j5qG1rRdR2OH/tB5XIF5Tiuch1POY6nEolx9e3Ro+r9gwdUOvmH+vKLz1U0OqoKBbtyznWV47jKtovq8sVzKhkbVPl8XkkplfZKewulUr6imKj0IRQKsXv3bpYuXYJpptl/4D2am5upqqpC1zU0TUPXNQxDY+261TwYis4orre3tRwRskQ+Z2JlUkxmx5kYj1HMmwwODHHhfB/be97AHwjOTB0CCjkLyiXGYqNc/vU6r3dvQdM0jLUbt3Hi+E9MpJLUR8LMnz8fVXYJ1DWw4+2dBAJBTp74mSWvLmZRayvhSBjD0Hn8cID+/vvcuNXPRx9/gq7rFVGKRUeVSiUmLYtkMsHY0zhNzS10rFhJVZWBlGXSKZOBe/0knj4hY6YoFPIYVdUEQ3Vs3rqd5R3L/5pD1y3/bTrFVC9nO0BKSbkskVIihMAwKhlpmvbsXc+TappkNsGLPCyEoGzbxL7+CvP0KbxsBv+yDhYeOkzd1m0I9Tz//AOUUgwd/oDUhXOIphaM9nakZeH0nWfNuUsYz5qcGX9Ox2bvK6XwPI/xWzfxr1mPCIVQ2Qx2PEbRLnD7VC/GbJK5mcwmmkYimcRat5malEU5bWEP3KMUHSRTPY/7BRvj3/67uftOyWFiUzfFmzfQHw5TqPZhvraCzPqNVNfWV0r+L2hqWoCHYryzC7FyFbJcppCbpJg1WdLW+v9Eicfj9F26QvxJnKJtU3KKdHZ2smvXToSUUj1PlOly5/ZyOgaQzWaxLIvGxkZ8Ph9CCP4EKMb2DPEA0UMAAAAASUVORK5CYII=" class="attachment-full size-full" alt="" data-src="https://ridgebacknet.com/wp-content/uploads/2022/01/Untitled-design-4.png" data-srcset="https://ridgebacknet.com/wp-content/uploads/2022/01/Untitled-design-4.png 444w, https://ridgebacknet.com/wp-content/uploads/2022/01/Untitled-design-4-768x655.png 768w, https://ridgebacknet.com/wp-content/uploads/2022/01/Untitled-design-4-720x614.png 720w" data-sizes="(max-width: 444px) 100vw, 444px" data-swift-image-lazyload="true" data-style="" style="height:379px" data-l>
+ <img width="444" height="379" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD5klEQVQ4jZ2UT2xUVRTGf/e91w6dmU47YyltoZWKCIWW/yAFoTuJLoCQYEgMC0zYaAguXLgxwUTjxphoMHFnYgwGEtlUQgj/CigCISyAQmlLh+IwdKYzrzOvM/Nm3ntzr4tpa6mg0S+5m3Pv/e455zvfFY7jKYECIQDI5yyiIyOEw/UsbH0ZMRV/McTUAiEUhhDgui75XAYpFd9/9w0Dg8N0repie08Pq9dvxc5N4HklgnWN6LqBEAKl1KzH1Ay9BpCIPyI6dJt0cpRAqJZg0E90eIjRkWFcO43PZ4B0sdIxivkJPKeALHsopeami8hMmCo6fId0OsXYWALHcVjV1UVbWyu1dWEGHwwSCgWRUnLt6lVM08Qrw6aNG1i2ogN/MIJvXmCqZIE488uP6uKFqzx69JhFi9qoD0eoDfrZs3cPLzU0MJnLc7q3l7NnzlIzr4bGBc2UpWTk4TCNTQv49LMj+P31+GoCFcIPDx1UbYuXs/edfUQiEXRdJzH2lN6Tx+je0s2du3e5/vsNXCl4c8dbrF23gdpQiFKxyG9X+hhPxNj/7j5qG1rRdR2OH/tB5XIF5Tiuch1POY6nEolx9e3Ro+r9gwdUOvmH+vKLz1U0OqoKBbtyznWV47jKtovq8sVzKhkbVPl8XkkplfZKewulUr6imKj0IRQKsXv3bpYuXYJpptl/4D2am5upqqpC1zU0TUPXNQxDY+261TwYis4orre3tRwRskQ+Z2JlUkxmx5kYj1HMmwwODHHhfB/be97AHwjOTB0CCjkLyiXGYqNc/vU6r3dvQdM0jLUbt3Hi+E9MpJLUR8LMnz8fVXYJ1DWw4+2dBAJBTp74mSWvLmZRayvhSBjD0Hn8cID+/vvcuNXPRx9/gq7rFVGKRUeVSiUmLYtkMsHY0zhNzS10rFhJVZWBlGXSKZOBe/0knj4hY6YoFPIYVdUEQ3Vs3rqd5R3L/5pD1y3/bTrFVC9nO0BKSbkskVIihMAwKhlpmvbsXc+TappkNsGLPCyEoGzbxL7+CvP0KbxsBv+yDhYeOkzd1m0I9Tz//AOUUgwd/oDUhXOIphaM9nakZeH0nWfNuUsYz5qcGX9Ox2bvK6XwPI/xWzfxr1mPCIVQ2Qx2PEbRLnD7VC/GbJK5mcwmmkYimcRat5malEU5bWEP3KMUHSRTPY/7BRvj3/67uftOyWFiUzfFmzfQHw5TqPZhvraCzPqNVNfWV0r+L2hqWoCHYryzC7FyFbJcppCbpJg1WdLW+v9Eicfj9F26QvxJnKJtU3KKdHZ2smvXToSUUj1PlOly5/ZyOgaQzWaxLIvGxkZ8Ph9CCP4EKMb2DPEA0UMAAAAASUVORK5CYII=" class="attachment-full size-full" alt="" data-src="/wp-content/uploads/2022/01/Untitled-design-4.png" data-srcset="/wp-content/uploads/2022/01/Untitled-design-4.png 444w, /wp-content/uploads/2022/01/Untitled-design-4-768x655.png 768w, /wp-content/uploads/2022/01/Untitled-design-4-720x614.png 720w" data-sizes="(max-width: 444px) 100vw, 444px" data-swift-image-lazyload="true" data-style="" style="height:379px" data-l>
  </div>
  </div>
  </div>
@@ -403,7 +403,7 @@ Impair the intruder and neutralize threats immediately so no harm can come to yo
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-cf0f31a elementor-widget elementor-widget-image" data-id="cf0f31a" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img width="904" height="994" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAACiklEQVQ4y82UT28TRxiHn5md3fXa3vXfOE7iAIGkUhJEhErUU68cEUhVL5wq9TNV3FDbS4EzUvkA7aFIrVBapIIAiTYlVCR1bO+ud9Yz24OrIsRWqsKF9/pqHs3vnWdeEae6cJXkpBWn+us79/Y+U66SuMo5MchVDo4UqLKmtRatNXmec3h4iFKKbreL4zi4rlsKLM00m80YDockScL+9IhRnjAej4njmKIoSkGlN/I8j36/D4Vl3zykHTZYCLuA+M+Ib4CMMaRpirWWwmrCoOBCrYkUKXY2QciAAomUbwdR1liMAK01WZYxOh7y19FLrEnZ2jrPJHEJAh89GjJKjtn/85jV5T4V3yOsVTDWzkEvDg6IJyOyLCOoeEShT6fTxPOWALj/4y+Mcx+pBPtHknSa01YPqEUduv1l1k/356But0OrUefJ3g+MMx8xNgw2Nqk1ezy7/y17Dx7iLmxQSA9shikissLj4/PnWBqsIMU8pvR9nygMWWiECCeg3upRDdsIDLHTZOfih5zpRdgswxz9hiJhc3uTwalVGvUAKcXrYQtHsbz9Ea00JZ1qpnmBzwxRaVCta4LhS/o767x4LvDbLS5+0Kde9ctfzXEcgiDg5q27TMYjPr9+hbW1szwrcmb1iK3tHdi9xPHvj4j/+JU4HjAYrJYLKaXDuVNLiFdPMQZqtRotX9KJqriuwvNcvPYKN768zU/3bmOMKfdICGhEEZevfsLiYg+A3uIKwvURYj6LShBw7dPrjIevmEwmKK9abvbamQHtZvTvQbex8Ebf930u7e7OpS0KptqUg5YXu//r17+2+x9QnOiv1DuskSTV3+ncFOKLb76Xjjz5YtO54efHB5b3rv4G1V7v2JPVTJoAAAAASUVORK5CYII=" class="attachment-full size-full" alt="" data-src="https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6.png" data-srcset="https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6.png 904w, https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6-273x300.png 273w, https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6-768x844.png 768w, https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6-720x792.png 720w, https://ridgebacknet.com/wp-content/uploads/2021/10/rb_6-18x20.png 18w" data-sizes="(max-width: 904px) 100vw, 904px" data-swift-image-lazyload="true" data-style="" style="height:994px" data-l>
+ <img width="904" height="994" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAACiklEQVQ4y82UT28TRxiHn5md3fXa3vXfOE7iAIGkUhJEhErUU68cEUhVL5wq9TNV3FDbS4EzUvkA7aFIrVBapIIAiTYlVCR1bO+ud9Yz24OrIsRWqsKF9/pqHs3vnWdeEae6cJXkpBWn+us79/Y+U66SuMo5MchVDo4UqLKmtRatNXmec3h4iFKKbreL4zi4rlsKLM00m80YDockScL+9IhRnjAej4njmKIoSkGlN/I8j36/D4Vl3zykHTZYCLuA+M+Ib4CMMaRpirWWwmrCoOBCrYkUKXY2QciAAomUbwdR1liMAK01WZYxOh7y19FLrEnZ2jrPJHEJAh89GjJKjtn/85jV5T4V3yOsVTDWzkEvDg6IJyOyLCOoeEShT6fTxPOWALj/4y+Mcx+pBPtHknSa01YPqEUduv1l1k/356But0OrUefJ3g+MMx8xNgw2Nqk1ezy7/y17Dx7iLmxQSA9shikissLj4/PnWBqsIMU8pvR9nygMWWiECCeg3upRDdsIDLHTZOfih5zpRdgswxz9hiJhc3uTwalVGvUAKcXrYQtHsbz9Ea00JZ1qpnmBzwxRaVCta4LhS/o767x4LvDbLS5+0Kde9ctfzXEcgiDg5q27TMYjPr9+hbW1szwrcmb1iK3tHdi9xPHvj4j/+JU4HjAYrJYLKaXDuVNLiFdPMQZqtRotX9KJqriuwvNcvPYKN768zU/3bmOMKfdICGhEEZevfsLiYg+A3uIKwvURYj6LShBw7dPrjIevmEwmKK9abvbamQHtZvTvQbex8Ebf930u7e7OpS0KptqUg5YXu//r17+2+x9QnOiv1DuskSTV3+ncFOKLb76Xjjz5YtO54efHB5b3rv4G1V7v2JPVTJoAAAAASUVORK5CYII=" class="attachment-full size-full" alt="" data-src="/wp-content/uploads/2021/10/rb_6.png" data-srcset="/wp-content/uploads/2021/10/rb_6.png 904w, /wp-content/uploads/2021/10/rb_6-273x300.png 273w, /wp-content/uploads/2021/10/rb_6-768x844.png 768w, /wp-content/uploads/2021/10/rb_6-720x792.png 720w, /wp-content/uploads/2021/10/rb_6-18x20.png 18w" data-sizes="(max-width: 904px) 100vw, 904px" data-swift-image-lazyload="true" data-style="" style="height:994px" data-l>
  </div>
  </div>
  </div>
@@ -482,7 +482,7 @@ Transient or frequently-changing networks</p>
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-02b68d7 elementor-widget elementor-widget-image" data-id="02b68d7" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img width="601" height="254" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAMAAADOQy/fAAAB1FBMVEUWSIQYR4MiV4wiZ5cfX5QiZJcmRoMjP4EiUZIgUZEgPnonP3YZLmgYMmomMGQNKV0RJVYMGksHFUQGE0AYUokaV40gW5AvUoc2S4EsRoIqQoEwUo03XpUzR4EpNHIgLGkZLmofLmYSKmAQIFQJG04HFkYGFEEaXo4faZg2ZpNIX4tEVoUnXJU9XpNIaZhEYZVGX5NJYJE6SX4bOnQeSHwfRnoQL2UJHVIHF0kdapIdbJQhcpkwcZoxbZYlZZMiYZNDaZc5YZRnf6hpfaY3UoxIU4YlQXkqWYsqRHcVOnANH1UKGEsedpgfd5kkdpk4dZc2hKQrfaEseqA/b5lRd6Bphaled6JKZZc2R4AlOXQZOnUcRnwmOmwiK1wYHk8IF0gggp0gg54ggZ4pepo3cJQ5aZM8Yo5AWYZLapU8Zpc6X5NGWY4tTYUvVIcvSHssSnodSnkSM2QJG08IF0kij6MijqMii6Imhp80eZg0cZc7aZFJWoQ4VYVAYJA6XZAfRocgO4AnMnMyK2YrNnMfNG8KHlYJGk8HGEokmqgkmacjk6UijaMhh6Affp8ifqAicpofY5IbWY4cWZAZTYoaR4kgQoEeOHUWKWgQJmIKHlcJG1AIGEsxmL7sAAAAsUlEQVQI12NgYGRiZmFlY+fg5OLm4eXjFxAUEmYQEREVE5eQlJKWkZWTV1BUUlZRVWNQV9fQ1NLW0dXTNzA0MjYxNTO3EGKwtLK2sbWzd3B0cnZxdXP38PTyVmXw8fXzDwgMCg4JDQuPiIyKjomNi2dISExKTklNS8/IzMrOyc3LLygsKmYoKS0rr6isqq6pratvaGxqbmlta2fo6Ozq7unt658wcdLkKVOnTZ8xc9ZsAFSwL60Sz3KUAAAAAElFTkSuQmCC" class="attachment-full size-full" alt="" data-src="https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-50.png" data-srcset="https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-50.png 601w, https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-50-300x127.png 300w, https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-50-20x8.png 20w" data-sizes="(max-width: 601px) 100vw, 601px" data-swift-image-lazyload="true" data-style="" style="height:254px" data-l>
+ <img width="601" height="254" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAMAAADOQy/fAAAB1FBMVEUWSIQYR4MiV4wiZ5cfX5QiZJcmRoMjP4EiUZIgUZEgPnonP3YZLmgYMmomMGQNKV0RJVYMGksHFUQGE0AYUokaV40gW5AvUoc2S4EsRoIqQoEwUo03XpUzR4EpNHIgLGkZLmofLmYSKmAQIFQJG04HFkYGFEEaXo4faZg2ZpNIX4tEVoUnXJU9XpNIaZhEYZVGX5NJYJE6SX4bOnQeSHwfRnoQL2UJHVIHF0kdapIdbJQhcpkwcZoxbZYlZZMiYZNDaZc5YZRnf6hpfaY3UoxIU4YlQXkqWYsqRHcVOnANH1UKGEsedpgfd5kkdpk4dZc2hKQrfaEseqA/b5lRd6Bphaled6JKZZc2R4AlOXQZOnUcRnwmOmwiK1wYHk8IF0gggp0gg54ggZ4pepo3cJQ5aZM8Yo5AWYZLapU8Zpc6X5NGWY4tTYUvVIcvSHssSnodSnkSM2QJG08IF0kij6MijqMii6Imhp80eZg0cZc7aZFJWoQ4VYVAYJA6XZAfRocgO4AnMnMyK2YrNnMfNG8KHlYJGk8HGEokmqgkmacjk6UijaMhh6Affp8ifqAicpofY5IbWY4cWZAZTYoaR4kgQoEeOHUWKWgQJmIKHlcJG1AIGEsxmL7sAAAAsUlEQVQI12NgYGRiZmFlY+fg5OLm4eXjFxAUEmYQEREVE5eQlJKWkZWTV1BUUlZRVWNQV9fQ1NLW0dXTNzA0MjYxNTO3EGKwtLK2sbWzd3B0cnZxdXP38PTyVmXw8fXzDwgMCg4JDQuPiIyKjomNi2dISExKTklNS8/IzMrOyc3LLygsKmYoKS0rr6isqq6pratvaGxqbmlta2fo6Ozq7unt658wcdLkKVOnTZ8xc9ZsAFSwL60Sz3KUAAAAAElFTkSuQmCC" class="attachment-full size-full" alt="" data-src="/wp-content/uploads/2021/09/Untitled-design-50.png" data-srcset="/wp-content/uploads/2021/09/Untitled-design-50.png 601w, /wp-content/uploads/2021/09/Untitled-design-50-300x127.png 300w, /wp-content/uploads/2021/09/Untitled-design-50-20x8.png 20w" data-sizes="(max-width: 601px) 100vw, 601px" data-swift-image-lazyload="true" data-style="" style="height:254px" data-l>
  </div>
  </div>
  </div>
@@ -565,14 +565,14 @@ We’ve exceled our experience in a wide range of industries to bring valuable i
  <div class="elementor-widget-container">
  <div class="elementor-icon-box-wrapper">
  <div class="elementor-icon-box-icon">
- <a class="elementor-icon elementor-animation-" href="https://ridgebacknet.com/ridgeback-primer/">
+ <a class="elementor-icon elementor-animation-" href="/ridgeback-primer/">
  <i aria-hidden="true" class="fas fa-download">
 </i>
  </a>
  </div>
  <div class="elementor-icon-box-content">
  <h4 class="elementor-icon-box-title">
- <a href="https://ridgebacknet.com/ridgeback-primer/" >
+ <a href="/ridgeback-primer/" >
  Download Ridgeback Primer </a>
  </h4>
  </div>
@@ -587,14 +587,14 @@ We’ve exceled our experience in a wide range of industries to bring valuable i
  <div class="elementor-widget-container">
  <div class="elementor-icon-box-wrapper">
  <div class="elementor-icon-box-icon">
- <a class="elementor-icon elementor-animation-" href="https://ridgebacknet.com/schedule-consultation/">
+ <a class="elementor-icon elementor-animation-" href="/schedule-consultation/">
  <i aria-hidden="true" class="fas fa-stopwatch">
 </i>
  </a>
  </div>
  <div class="elementor-icon-box-content">
  <h4 class="elementor-icon-box-title">
- <a href="https://ridgebacknet.com/schedule-consultation/" >
+ <a href="/schedule-consultation/" >
  Schedule a Consultation </a>
  </h4>
  </div>
@@ -627,8 +627,8 @@ We’ve exceled our experience in a wide range of industries to bring valuable i
  <div class="elementor-element elementor-element-654ddecc elementor-widget elementor-widget-ilogo" data-id="654ddecc" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <a href="/">
+ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </a>
  </div>
  </div>
@@ -656,11 +656,11 @@ Quick Links</h4>
  <div class="menu-footer-1-container">
 <ul id="menu-footer-1" class="menu">
 <li id="menu-item-5041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-5041">
-<a href="https://ridgebacknet.com/">
+<a href="/">
 Home</a>
 </li>
  <li id="menu-item-5947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5947">
-<a href="https://ridgebacknet.com/about-us/">
+<a href="/about-us/">
 About Us</a>
 </li>
  <li id="menu-item-5573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5573">
@@ -686,15 +686,15 @@ Learn more...</h4>
  <div class="menu-footer-2-container">
 <ul id="menu-footer-2" class="menu">
 <li id="menu-item-6123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6123">
-<a href="https://ridgebacknet.com/resources/">
+<a href="/resources/">
 Resources</a>
 </li>
  <li id="menu-item-6124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6124">
-<a href="https://ridgebacknet.com/partners/">
+<a href="/partners/">
 Partners</a>
 </li>
  <li id="menu-item-6145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6145">
-<a href="https://ridgebacknet.com/terms-and-conditions/">
+<a href="/terms-and-conditions/">
 Terms and Conditions</a>
 </li>
  </ul>
@@ -770,7 +770,7 @@ PROCEZIO SYSTEMS</a>
 var wpcf7 = {"api":{"root":"https:\/\/ridgebacknet.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
- <script type='text/javascript' src='https://ridgebacknet.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.3' id='elementor-webpack-runtime-js'>
+ <script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.3' id='elementor-webpack-runtime-js'>
 </script>
  <link rel="stylesheet" href="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/css/4744c604259e85efa7c073f57fbb3ecb.css" media="all">
 <script src="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/js/7ce9b7c6b434603bbd0bce067355bbd9.js">

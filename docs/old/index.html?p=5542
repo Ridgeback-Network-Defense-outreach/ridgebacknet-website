@@ -9,8 +9,8 @@
 Product &#8211; Ridgeback</title>
  <meta name='robots' content='max-image-preview:large' />
  <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
- <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Feed" href="https://ridgebacknet.com/feed/" />
- <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Comments Feed" href="https://ridgebacknet.com/comments/feed/" />
+ <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Feed" href="/feed/" />
+ <link rel="alternate" type="application/rss+xml" title="Ridgeback &raquo; Comments Feed" href="/comments/feed/" />
  <link rel='dns-prefetch' href='//ridgeback.proceziodevp.in'>
 
 <link rel='dns-prefetch' href='//fonts.gstatic.com'>
@@ -24,22 +24,22 @@ window.swift_performance_collectdomready = [];window.swift_performance_collectre
 var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.php","like":"Like","unlike":"Unlike"};
 /* ]]> */
 </script>
- <link rel="https://api.w.org/" href="https://ridgebacknet.com/wp-json/" />
-<link rel="alternate" type="application/json" href="https://ridgebacknet.com/wp-json/wp/v2/pages/5542" />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ridgebacknet.com/xmlrpc.php?rsd" />
- <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ridgebacknet.com/wp-includes/wlwmanifest.xml" />
+ <link rel="https://api.w.org/" href="/wp-json/" />
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5542" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
  <meta name="generator" content="WordPress 5.8.3" />
- <link rel="canonical" href="https://ridgebacknet.com/product/" />
- <link rel='shortlink' href='https://ridgebacknet.com/?p=5542' />
- <link rel="alternate" type="application/json+oembed" href="https://ridgebacknet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fproduct%2F" />
- <link rel="alternate" type="text/xml+oembed" href="https://ridgebacknet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fproduct%2F&#038;format=xml" />
+ <link rel="canonical" href="/product/" />
+ <link rel='shortlink' href='/?p=5542' />
+ <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fproduct%2F" />
+ <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fridgebacknet.com%2Fproduct%2F&#038;format=xml" />
  <meta name="generator" content="Powered by Slider Revolution 6.5.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
  <link rel="prefetch" href="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/js/0c57b7f2c9bfecbf5a06bde04c7ef60c.js" as="script" crossorigin>
 <script data-dont-merge="">
 (function(){function iv(a){if(a.nodeName=='SOURCE'){a = a.nextSibling;}if(typeof a !== 'object' || a === null || typeof a.getBoundingClientRect!=='function'){return false}var b=a.getBoundingClientRect();return((a.innerHeight||a.clientHeight)>0&&b.bottom+50>=0&&b.right+50>=0&&b.top-50<=(window.innerHeight||document.documentElement.clientHeight)&&b.left-50<=(window.innerWidth||document.documentElement.clientWidth))}function ll(){var a=document.querySelectorAll('[data-swift-image-lazyload]');for(var i in a){if(iv(a[i])){a[i].onload=function(){window.dispatchEvent(new Event('resize'));};try{if(a[i].nodeName == 'IMG'){a[i].setAttribute('src',(typeof a[i].dataset.src != 'undefined' ? a[i].dataset.src : a[i].src))};a[i].setAttribute('srcset',(typeof a[i].dataset.srcset !== 'undefined' ? a[i].dataset.srcset : ''));a[i].setAttribute('sizes',(typeof a[i].dataset.sizes !== 'undefined' ? a[i].dataset.sizes : ''));a[i].setAttribute('style',(typeof a[i].dataset.style !== 'undefined' ? a[i].dataset.style : ''));a[i].removeAttribute('data-swift-image-lazyload')}catch(e){}}}requestAnimationFrame(ll)}requestAnimationFrame(ll)})();</script>
 </head>
  <body class="page-template-default page page-id-5542 royal_preloader elementor-default elementor-kit-6 elementor-page elementor-page-5542 engitech-theme-ver-1.3.1 wordpress-version-5.8.3">
- <div id="royal_preloader" data-width="175" data-height="50" data-url="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1.png" data-color="#0a0f2b" data-bgcolor="#000000">
+ <div id="royal_preloader" data-width="175" data-height="50" data-url="/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1.png" data-color="#0a0f2b" data-bgcolor="#000000">
 </div>
 <div id="page" class="site">
  <!-- #site-header-open -->
@@ -55,8 +55,8 @@ var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.p
  <div class="elementor-element elementor-element-7b3283e6 elementor-widget elementor-widget-ilogo" data-id="7b3283e6" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <a href="/">
+ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="/wp-content/uploads/2021/03/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </a>
  </div>
  </div>
@@ -74,15 +74,15 @@ var simpleLikes = {"ajaxurl":"https:\/\/ridgebacknet.com\/wp-admin\/admin-ajax.p
 Engage the Attacker</a>
 </li>
  <li id="menu-item-5342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5342">
-<a href="https://ridgebacknet.com/why-ridgeback/">
+<a href="/why-ridgeback/">
 Why Ridgeback?</a>
 </li>
  <li id="menu-item-5407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5407">
-<a href="https://ridgebacknet.com/key-features/">
+<a href="/key-features/">
 Key Features</a>
 </li>
  <li id="menu-item-5572" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5542 current_page_item menu-item-5572">
-<a href="https://ridgebacknet.com/product/" aria-current="page">
+<a href="/product/" aria-current="page">
 Product</a>
 </li>
  </ul>
@@ -116,7 +116,7 @@ Product</a>
  <div class="elementor-element elementor-element-6bdfe4fd elementor-widget elementor-widget-ilogo" data-id="6bdfe4fd" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
+ <a href="/">
  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Ridgeback" data-src="https://ridgeback.proceziodevp.in/wp-content/uploads/2021/09/Ridgeback-new-logo-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="height:50" data-l>
  </a>
  </div>
@@ -148,15 +148,15 @@ Product</a>
 Engage the Attacker</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5342">
-<a href="https://ridgebacknet.com/why-ridgeback/">
+<a href="/why-ridgeback/">
 Why Ridgeback?</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5407">
-<a href="https://ridgebacknet.com/key-features/">
+<a href="/key-features/">
 Key Features</a>
 </li>
  <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5542 current_page_item menu-item-5572">
-<a href="https://ridgebacknet.com/product/" aria-current="page">
+<a href="/product/" aria-current="page">
 Product</a>
 </li>
  </ul>
@@ -187,7 +187,7 @@ Product</a>
  </div>
  <!-- #side-panel-close -->
  <div id="content" class="site-content">
- <div class="page-header flex-middle" style="background-image: url(https://ridgebacknet.com/wp-content/uploads/2021/09/Untitled-design-84.png);" >
+ <div class="page-header flex-middle" style="background-image: url(/wp-content/uploads/2021/09/Untitled-design-84.png);" >
  <div class="container">
  <div class="inner flex-middle">
  <h1 class="page-title">
@@ -342,7 +342,7 @@ Each individual remote core (&lt;1MB) can serve an entire network segment.</span
  <div class="elementor-widget-wrap elementor-element-populated">
  <div class="elementor-element elementor-element-6d68e60 elementor-widget elementor-widget-image" data-id="6d68e60" data-element_type="widget" data-widget_type="image.default">
  <div class="elementor-widget-container">
- <img width="453" height="328" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAMAAAAYGszCAAABgFBMVEX////+/v7u7u7r6+vu7u/q6ury8vL6+/zn6u7d4Obk5+z+///7/f/8/f3J3eupzeScyOaSwuK72Ov7/f75+vvl6Ozf4+jw8vb29/n4+fre7veNxeLY6/Xb7Pdxve54xPN9xvRlvPJ3v+3r9Prc3+b4+fvz9PbX5u6AutfX6PL8/Pzp8/qUy+99xPB4wvCKx+/F4fT6/P37/P309ffu8PPy9Pbn5+fOz8/P09bX19j5/P3v9vvo8/r2+fz8/P37+/z7/Pz19fbg4ODe3t7h4eH29vb9/f79/f36+vvr7fHe4ufh5One4eft7/Lf4ujm6O3o6u7p6+/i5erz9ffr7fD9/v7q7PD5+frm6e3b3+bW2uHl6O3Z3eTj5uvs7vHd4Of19vj29/ji5evb3+Xz9Pfr7vLv8vX19vno6/D09fjv8fXu8PT3+Prx8/bm6vDq7vPn6/DH4O6IvNnp8vf5+fn09PT39/fK3+qMvdfq8PPv7+/k5OTj4+Pe3t/V19ni4uL9PWc3AAAA/klEQVQY01XIZ1eCUAAG4Pe2wOg2objtvScWbbD0QqQZSTvb2tB2tin/eh86nVPPxwcgBYVFxSUQxEApAaQyCQBoeUVlVXWNLCq1dSqrb2gEgKbmlta29g4mBjpZV3dPb18/gIHBoeGR0TEtOD5BJX1yaloHgJnZuXlNMzRi0tDCYjjCAcAyZc0ymA1DNmxzKWQBIM5yVFCVmENW4lHGVmMuALrmJkxPVNY3Nt3ElipuiwCos7PLgnvJfevgMHl0fHIaJwBoKn12rl6o8NKXqUxWFfCDXl1nb27vMp5M8Be9f3j8N7kn/sxfXt8459z+zffwh+5/fkXyed/PAfgGpvMvg+ClXRAAAAAASUVORK5CYII=" class="attachment-large size-large" alt="" data-src="https://ridgebacknet.com/wp-content/uploads/2021/09/Technical-Advisory-1-1.png" data-srcset="https://ridgebacknet.com/wp-content/uploads/2021/09/Technical-Advisory-1-1.png 453w, https://ridgebacknet.com/wp-content/uploads/2021/09/Technical-Advisory-1-1-300x217.png 300w, https://ridgebacknet.com/wp-content/uploads/2021/09/Technical-Advisory-1-1-20x14.png 20w" data-sizes="(max-width: 453px) 100vw, 453px" data-swift-image-lazyload="true" data-style="" style="height:328px" data-l>
+ <img width="453" height="328" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAMAAAAYGszCAAABgFBMVEX////+/v7u7u7r6+vu7u/q6ury8vL6+/zn6u7d4Obk5+z+///7/f/8/f3J3eupzeScyOaSwuK72Ov7/f75+vvl6Ozf4+jw8vb29/n4+fre7veNxeLY6/Xb7Pdxve54xPN9xvRlvPJ3v+3r9Prc3+b4+fvz9PbX5u6AutfX6PL8/Pzp8/qUy+99xPB4wvCKx+/F4fT6/P37/P309ffu8PPy9Pbn5+fOz8/P09bX19j5/P3v9vvo8/r2+fz8/P37+/z7/Pz19fbg4ODe3t7h4eH29vb9/f79/f36+vvr7fHe4ufh5One4eft7/Lf4ujm6O3o6u7p6+/i5erz9ffr7fD9/v7q7PD5+frm6e3b3+bW2uHl6O3Z3eTj5uvs7vHd4Of19vj29/ji5evb3+Xz9Pfr7vLv8vX19vno6/D09fjv8fXu8PT3+Prx8/bm6vDq7vPn6/DH4O6IvNnp8vf5+fn09PT39/fK3+qMvdfq8PPv7+/k5OTj4+Pe3t/V19ni4uL9PWc3AAAA/klEQVQY01XIZ1eCUAAG4Pe2wOg2objtvScWbbD0QqQZSTvb2tB2tin/eh86nVPPxwcgBYVFxSUQxEApAaQyCQBoeUVlVXWNLCq1dSqrb2gEgKbmlta29g4mBjpZV3dPb18/gIHBoeGR0TEtOD5BJX1yaloHgJnZuXlNMzRi0tDCYjjCAcAyZc0ymA1DNmxzKWQBIM5yVFCVmENW4lHGVmMuALrmJkxPVNY3Nt3ElipuiwCos7PLgnvJfevgMHl0fHIaJwBoKn12rl6o8NKXqUxWFfCDXl1nb27vMp5M8Be9f3j8N7kn/sxfXt8459z+zffwh+5/fkXyed/PAfgGpvMvg+ClXRAAAAAASUVORK5CYII=" class="attachment-large size-large" alt="" data-src="/wp-content/uploads/2021/09/Technical-Advisory-1-1.png" data-srcset="/wp-content/uploads/2021/09/Technical-Advisory-1-1.png 453w, /wp-content/uploads/2021/09/Technical-Advisory-1-1-300x217.png 300w, /wp-content/uploads/2021/09/Technical-Advisory-1-1-20x14.png 20w" data-sizes="(max-width: 453px) 100vw, 453px" data-swift-image-lazyload="true" data-style="" style="height:328px" data-l>
  </div>
  </div>
  </div>
@@ -365,14 +365,14 @@ Each individual remote core (&lt;1MB) can serve an entire network segment.</span
  <div class="elementor-widget-container">
  <div class="elementor-icon-box-wrapper">
  <div class="elementor-icon-box-icon">
- <a class="elementor-icon elementor-animation-" href="https://ridgebacknet.com/ridgeback-primer/">
+ <a class="elementor-icon elementor-animation-" href="/ridgeback-primer/">
  <i aria-hidden="true" class="fas fa-download">
 </i>
  </a>
  </div>
  <div class="elementor-icon-box-content">
  <h4 class="elementor-icon-box-title">
- <a href="https://ridgebacknet.com/ridgeback-primer/" >
+ <a href="/ridgeback-primer/" >
  Download Ridgeback Primer </a>
  </h4>
  </div>
@@ -387,14 +387,14 @@ Each individual remote core (&lt;1MB) can serve an entire network segment.</span
  <div class="elementor-widget-container">
  <div class="elementor-icon-box-wrapper">
  <div class="elementor-icon-box-icon">
- <a class="elementor-icon elementor-animation-" href="https://ridgebacknet.com/schedule-consultation/">
+ <a class="elementor-icon elementor-animation-" href="/schedule-consultation/">
  <i aria-hidden="true" class="fas fa-stopwatch">
 </i>
  </a>
  </div>
  <div class="elementor-icon-box-content">
  <h4 class="elementor-icon-box-title">
- <a href="https://ridgebacknet.com/schedule-consultation/" >
+ <a href="/schedule-consultation/" >
  Schedule a Consultation </a>
  </h4>
  </div>
@@ -427,8 +427,8 @@ Each individual remote core (&lt;1MB) can serve an entire network segment.</span
  <div class="elementor-element elementor-element-654ddecc elementor-widget elementor-widget-ilogo" data-id="654ddecc" data-element_type="widget" data-widget_type="ilogo.default">
  <div class="elementor-widget-container">
  <div class="the-logo">
- <a href="https://ridgebacknet.com/">
- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="https://ridgebacknet.com/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
+ <a href="/">
+ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAApklEQVQI1y3MPUpDQRhG4efTMRET/LkEwSJgZ6mNhXuwcAluyiad29AiC0iZImBwAZcgGORCTJyMzVTnhfNy4v59PV11edzt8tv8sVle9uMXHUZY1X0GEXFUSrlAW90fGhQcY5P23c9Dadt+DEa3B5qMLTbYYY87LHGDT4xxVX3CF6Z4xiIdDs8nsfWU0+D1JMUMvXoc4htrXGNRFPhArqHAaeULev/RBjWsN0CPCAAAAABJRU5ErkJggg==" alt="Ridgeback" data-src="/wp-content/uploads/2021/03/Ridgeback-new-logo-1-1-1.png" data-srcset="" data-sizes="" data-swift-image-lazyload="true" data-style="" style="" data-l>
  </a>
  </div>
  </div>
@@ -456,11 +456,11 @@ Quick Links</h4>
  <div class="menu-footer-1-container">
 <ul id="menu-footer-1" class="menu">
 <li id="menu-item-5041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-5041">
-<a href="https://ridgebacknet.com/">
+<a href="/">
 Home</a>
 </li>
  <li id="menu-item-5947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5947">
-<a href="https://ridgebacknet.com/about-us/">
+<a href="/about-us/">
 About Us</a>
 </li>
  <li id="menu-item-5573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5573">
@@ -486,15 +486,15 @@ Learn more...</h4>
  <div class="menu-footer-2-container">
 <ul id="menu-footer-2" class="menu">
 <li id="menu-item-6123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6123">
-<a href="https://ridgebacknet.com/resources/">
+<a href="/resources/">
 Resources</a>
 </li>
  <li id="menu-item-6124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6124">
-<a href="https://ridgebacknet.com/partners/">
+<a href="/partners/">
 Partners</a>
 </li>
  <li id="menu-item-6145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6145">
-<a href="https://ridgebacknet.com/terms-and-conditions/">
+<a href="/terms-and-conditions/">
 Terms and Conditions</a>
 </li>
  </ul>
@@ -570,7 +570,7 @@ PROCEZIO SYSTEMS</a>
 var wpcf7 = {"api":{"root":"https:\/\/ridgebacknet.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
- <script type='text/javascript' src='https://ridgebacknet.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.3' id='elementor-webpack-runtime-js'>
+ <script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.3' id='elementor-webpack-runtime-js'>
 </script>
  <link rel="stylesheet" href="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/css/4f5e6afab35303d74c392f684e052389.css" media="all">
 <script src="//ridgebacknet.com/wp-content/cache/swift-performance/ridgebacknet.com/js/0c57b7f2c9bfecbf5a06bde04c7ef60c.js">
