@@ -28,7 +28,11 @@ var simpleLikes = {"ajaxurl":"\/wp-admin\/admin-ajax.php","like":"Like","unlike"
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
  <meta name="generator" content="WordPress 5.8.3" />
- <link rel="canonical" href="/partners/" />
+ 
+ <!--
+  <link rel="canonical" href="/partners/" />
+  -->
+
  <link rel='shortlink' href='/?p=6028' />
  <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fpartners%2F" />
  <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fpartners%2F&#038;format=xml" />
@@ -662,10 +666,14 @@ Learn more...</h4>
 <a href="/resources/">
 Resources</a>
 </li>
+
+<!--
  <li id="menu-item-6124" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6028 current_page_item menu-item-6124">
 <a href="/partners/" aria-current="page">
 Partners</a>
 </li>
+-->
+
  <li id="menu-item-6145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6145">
 <a href="/terms-and-conditions/">
 Terms and Conditions</a>
