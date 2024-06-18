@@ -71,13 +71,13 @@ svg {
   /*sm (640px)	min-width: 640px;*/
   @media (min-width: 640px) {
     /* CSS that should be displayed if width is equal to or greater than 640px goes here */
-    max-width: 640px;
+    /* max-width: 640px; */
   }
 
   /*md (768px)	min-width: 768px;*/
   @media (min-width: 768px) {
     /* CSS that should be displayed if width is equal to or greater than 768px goes here */
-    max-width: 768px;
+    /* max-width: 768px; */
   }
 
   /*lg (1024px)	min-width: 1024px;*/
@@ -98,7 +98,6 @@ svg {
     max-width: 1536px;
   }
 
-  /* background-color: lightgreen; */
   margin-left: auto;
   margin-right: auto;
 }
