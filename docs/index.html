@@ -8,7 +8,7 @@
 
   <body>
     <div class="container">
-      <div style="display: flex; justify-content: space-between; padding: 16px">
+      <div style="display: flex; justify-content: space-between; padding: 32px">
         <a href="index.html">
           <img src="RidgebackLogo.png" alt="Ridgeback Logo" width="350px" />
         </a>
@@ -20,81 +20,463 @@
             font-size: large;
           "
         >
-          <a href="aboutus.html">About us</a>
-          <a href="mailto:support@ridgebacknet.com">Contact us</a>
+          <a href="aboutus.html" style="text-decoration: none">About us</a>
+          <a href="mailto:support@ridgebacknet.com">
+            <button class="email-button">Contact us</button>
+          </a>
         </div>
       </div>
-      <div class="section" style="font-size: xx-large; text-align: center">
-        See all networked devices and the communications between them.
-        <br />Ridgeback takes immediate action when undesirable network events
-        occure.
+      <div
+        class="section font-dark-blue"
+        style="font-size: xx-large; text-align: center; font-weight: bolder"
+      >
+        View all networked devices and their communications.<br />
+        Ridgeback acts immediately on undesirable network events.
       </div>
+
       <div class="section">
-        List of problems that Ridgeback will help you solve:<br />
-        <br />
-        Data leaking between vlans<br />
-        Manage dns<br />
-        Determine how easy is it to hack your system <br />
-        Identify open ports (not a problem, thats a task)<br />
-        Manage IP Addresses (not a problem, thats a task)<br />
-        Is your Firewall configured correctly and is doing what you think it
-        should be doing <br />
-        Verify that topology, number of devices, and settings are working
-        correctly <br />
-        Can you CISO sleep at night? <br />
-        Ridgeback will help you communicate technical network stuff to non
-        technical people by... <br />
-        DNS problem <br />
-        <br />
-        FROM STEVE O <br />
-        Do you know what is happening in your network?<br />
-        Which nodes in your network talk to each other?<br />
-        which nodes in your network are attempting to talk to IPs that don't
-        exist?<br />
-        Do you want to interfer with bad actors?<br />
-        does your network automatically respond when a bad actor trys to scan
-        it?<br />
-        Messages addressed to "Meeting Group Chat" will also appear in the
-        meeting group chat in Team Chat<br />
-        <br />
-        Do you know what endpoints exist on your network?<br />
-        Do you have a hard time managing DNS?<br />
-        Do you know how easy it is to hack your system?<br />
-        Is your firewall configured correctly? Do you know if it is doing what
-        you told it to do?<br />
-        Do you know if your network topology is correct? Do you know if your
-        firewall is doing the security you think it is?<br />
-        Are you sure know one is in your network that you don't know about?<br />
-        who is in your network that you don't know about or doesn't belong
-        there?<br />
-        <br />
-        1. not knowing who is talking on your network.<br />
-        2. not having an immediate response to a bad actor scanning your
-        network.<br />
-        3. not able to print out and show your boss what is happening on the
-        network<br />
-        4. not able to sleep at night because you don't know if the bad actors
-        are in your network.<br />
-        <br />
-        problem: you have devices talking insecurely on the network<br />
-        problem: you can't verify that all your firewall security settings are
-        actually working.<br />
-        problem: You don't have DNS setup well<br />
-        problem: Your red team never has problems getting in<br />
-        problem: You can't print out a current list of who is talking to who on
-        the network<br />
-        Problem, You don't know how organized or chaotic your network is. You
-        don't have a tool for helping organize it.<br />
-        Is everything talking to everything and you want to get it under
-        control?<br />
-        Problem: How do i evaluate risk in my network?<br />
+        <div style="font-size: x-large; padding-bottom: 32px">
+          Some of the ways to use Ridgeback include...
+        </div>
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            flex-wrap: wrap;
+            justify-content: center;
+          "
+        >
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Share 3 -->
+            <svg
+              viewBox="-1 0 26 26"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+                sketch:type="MSPage"
+              >
+                <g
+                  id="Icon-Set"
+                  sketch:type="MSLayerGroup"
+                  transform="translate(-312.000000, -726.000000)"
+                  fill="#1782c0"
+                >
+                  <path
+                    d="M331,750 C329.343,750 328,748.657 328,747 C328,745.343 329.343,744 331,744 C332.657,744 334,745.343 334,747 C334,748.657 332.657,750 331,750 L331,750 Z M317,742 C315.343,742 314,740.657 314,739 C314,737.344 315.343,736 317,736 C318.657,736 320,737.344 320,739 C320,740.657 318.657,742 317,742 L317,742 Z M331,728 C332.657,728 334,729.343 334,731 C334,732.657 332.657,734 331,734 C329.343,734 328,732.657 328,731 C328,729.343 329.343,728 331,728 L331,728 Z M331,742 C329.23,742 327.685,742.925 326.796,744.312 L321.441,741.252 C321.787,740.572 322,739.814 322,739 C322,738.497 321.903,738.021 321.765,737.563 L327.336,734.38 C328.249,735.37 329.547,736 331,736 C333.762,736 336,733.762 336,731 C336,728.238 333.762,726 331,726 C328.238,726 326,728.238 326,731 C326,731.503 326.097,731.979 326.235,732.438 L320.664,735.62 C319.751,734.631 318.453,734 317,734 C314.238,734 312,736.238 312,739 C312,741.762 314.238,744 317,744 C318.14,744 319.179,743.604 320.02,742.962 L320,743 L326.055,746.46 C326.035,746.64 326,746.814 326,747 C326,749.762 328.238,752 331,752 C333.762,752 336,749.762 336,747 C336,744.238 333.762,742 331,742 L331,742 Z"
+                    id="share"
+                    sketch:type="MSShapeGroup"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <div class="problem-statement">
+              As an IT manager, I must know about all devices on my network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Shield 2 -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 6C20 6 19.1843 6 19.0001 6C16.2681 6 13.8871 4.93485 11.9999 3C10.1128 4.93478 7.73199 6 5.00009 6C4.81589 6 4.00009 6 4.00009 6C4.00009 6 4 8 4 9.16611C4 14.8596 7.3994 19.6436 12 21C16.6006 19.6436 20 14.8596 20 9.16611C20 8 20 6 20 6Z"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a security professional, I want to interfere with enemy
+              scanners.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Target 3 -->
+            <svg
+              version="1.1"
+              id="_x32_"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .st0 {
+                  fill: #1782c0;
+                }
+              </style>
+              <g>
+                <path
+                  class="st0"
+                  d="M204.762,254.456l34.212-34.204c-39.807-18.293-88.544-11.079-121.29,21.675
+		c-42.013,42.006-42.013,110.372,0,152.393c42.005,42.014,110.38,42.014,152.386,0c32.746-32.745,39.968-81.49,21.675-121.298
+		l-34.211,34.211c3.381,19.976-2.553,41.224-17.939,56.604c-25.21,25.218-66.225,25.218-91.434,0
+		c-25.21-25.21-25.21-66.224,0-91.427C163.546,257.016,184.794,251.074,204.762,254.456z"
+                />
+                <path
+                  class="st0"
+                  d="M323.628,241.146c34.324,57.876,26.642,133.939-23.076,183.65c-58.826,58.826-154.527,58.826-213.345,0
+		c-58.826-58.817-58.826-154.527,0-213.352c49.703-49.711,125.775-57.393,183.65-23.076l31.216-31.225
+		c-75.387-50.693-178.754-42.77-245.35,23.817c-75.629,75.621-75.629,198.69,0,274.311c75.63,75.638,198.683,75.638,274.312,0
+		c66.603-66.595,74.518-169.962,23.809-245.358L323.628,241.146z"
+                />
+                <path
+                  class="st0"
+                  d="M511.279,84.84c-1.61-4.195-5.684-6.78-10.298-6.57l-70.565,3.31l3.318-70.556
+		c0.201-4.622-2.384-8.68-6.578-10.306c-4.17-1.61-9.122-0.451-12.52,2.931l-75.299,75.306l-3.809,81.322L198.634,297.162
+		c-6.964-1.578-14.565,0.29-19.992,5.716c-8.422,8.422-8.422,22.062,0,30.484c8.414,8.422,22.062,8.422,30.484,0
+		c5.418-5.427,7.295-13.028,5.716-20l136.886-136.894l81.314-3.8l75.307-75.316C511.739,93.963,512.89,89.026,511.279,84.84z"
+                />
+              </g>
+            </svg>
+
+            <div class="problem-statement">
+              As a defensive security professional, I must determine how easy it
+              is to hack my system.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Settings 3 -->
+            <svg
+              viewBox="0 0 192 192"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+            >
+              <path
+                fill="#1782c0"
+                d="m80.16 29.054-5.958-.709 5.958.71Zm31.68 0-5.958.71 5.958-.71Zm34.217 19.756-2.365-5.515 2.365 5.514Zm10.081 3.352 5.196-3-5.196 3Zm7.896 13.676 5.196-3-5.196 3Zm-2.137 10.407-3.594-4.805 3.594 4.805Zm0 39.51 3.593-4.805-3.593 4.805Zm2.137 10.407 5.196 3-5.196-3Zm-7.896 13.676-5.196-3 5.196 3Zm-10.081 3.353 2.364-5.515-2.364 5.515Zm-34.217 19.755 5.958.709-5.958-.709Zm-31.68 0-5.958.709 5.958-.709Zm-34.217-19.755-2.364-5.515 2.364 5.515Zm-10.08-3.353-5.197 3 5.196-3Zm-7.897-13.676 5.196-3-5.196 3Zm2.137-10.407 3.594 4.805-3.594-4.805Zm0-39.51L26.51 81.05l3.593-4.805Zm-2.137-10.407 5.196 3-5.196-3Zm7.896-13.676-5.196-3 5.196 3Zm10.081-3.352-2.364 5.514 2.364-5.514Zm7.85 3.365-2.365 5.515 2.364-5.515Zm0 87.65 2.364 5.514-2.365-5.514ZM36.235 111.17l-3.594-4.805 3.594 4.805Zm76.823 41.535 5.958.71-5.958-.71Zm39.854-69.742-3.593-4.805 3.593 4.805Zm-16.369-30.074 2.364 5.514-2.364-5.514Zm-23.485-13.594-5.958.709 5.958-.71ZM88.104 16a14 14 0 0 0-13.902 12.345l11.916 1.419A2 2 0 0 1 88.104 28V16Zm15.792 0H88.104v12h15.792V16Zm13.902 12.345A14 14 0 0 0 103.896 16v12a2 2 0 0 1 1.986 1.764l11.916-1.419Zm1.219 10.24-1.219-10.24-11.916 1.419 1.219 10.24 11.916-1.419Zm24.675 4.71-9.513 4.08 4.729 11.028 9.513-4.08-4.729-11.028Zm17.642 5.867a14 14 0 0 0-17.642-5.867l4.729 11.029a2 2 0 0 1 2.521.838l10.392-6Zm7.896 13.676-7.896-13.676-10.392 6 7.896 13.676 10.392-6Zm-3.74 18.212a14 14 0 0 0 3.74-18.212l-10.392 6a2 2 0 0 1-.535 2.602l7.187 9.61Zm-8.984 6.718 8.984-6.718-7.187-9.61-8.983 6.718 7.186 9.61Zm8.984 23.182-8.984-6.718-7.186 9.61 8.983 6.718 7.187-9.61Zm3.74 18.212a14 14 0 0 0-3.74-18.212l-7.187 9.61a2 2 0 0 1 .535 2.602l10.392 6Zm-7.896 13.676 7.896-13.676-10.392-6-7.896 13.676 10.392 6Zm-17.642 5.867a14 14 0 0 0 17.642-5.867l-10.392-6a2.001 2.001 0 0 1-2.521.838l-4.729 11.029Zm-9.513-4.08 9.513 4.08 4.729-11.029-9.512-4.079-4.73 11.028Zm-16.381 19.03 1.219-10.24-11.916-1.419-1.219 10.24 11.916 1.419ZM103.896 176a14 14 0 0 0 13.902-12.345l-11.916-1.419a2 2 0 0 1-1.986 1.764v12Zm-15.792 0h15.792v-12H88.104v12Zm-13.902-12.345A14 14 0 0 0 88.104 176v-12a2 2 0 0 1-1.986-1.764l-11.916 1.419Zm-1.012-8.504 1.012 8.504 11.916-1.419-1.012-8.504-11.916 1.419ZM51.428 134.31l-7.85 3.366 4.73 11.029 7.849-3.366-4.73-11.029Zm-7.85 3.366a2 2 0 0 1-2.52-.838l-10.392 6a14 14 0 0 0 17.642 5.867l-4.73-11.029Zm-2.52-.838-7.896-13.676-10.392 6 7.896 13.676 10.392-6Zm-7.896-13.676a2 2 0 0 1 .535-2.602l-7.187-9.61a14 14 0 0 0-3.74 18.212l10.392-6Zm.535-2.602 6.132-4.585-7.187-9.61-6.132 4.585 7.187 9.61ZM26.51 81.05l6.132 4.586 7.187-9.61-6.132-4.586-7.187 9.61Zm-3.74-18.212a14 14 0 0 0 3.74 18.212l7.187-9.61a2 2 0 0 1-.535-2.602l-10.392-6Zm7.896-13.676L22.77 62.838l10.392 6 7.896-13.676-10.392-6Zm17.642-5.867a14 14 0 0 0-17.642 5.867l10.392 6a2 2 0 0 1 2.52-.838l4.73-11.029Zm7.849 3.366-7.85-3.366-4.729 11.029 7.85 3.366 4.729-11.029Zm18.045-18.316-1.012 8.504 11.916 1.419 1.012-8.504-11.916-1.419Zm-1.754 27.552c6.078-3.426 11.69-9.502 12.658-17.63L73.19 36.85c-.382 3.209-2.769 6.415-6.635 8.595l5.893 10.453Zm-21.02 1.793c7.284 3.124 15.055 1.57 21.02-1.793l-5.893-10.453c-3.704 2.088-7.481 2.468-10.398 1.217l-4.73 11.029ZM49 96c0-7.1-2.548-15.022-9.171-19.975l-7.187 9.61C35.36 87.668 37 91.438 37 96h12Zm23.448 40.103c-5.965-3.363-13.736-4.917-21.02-1.793l4.729 11.029c2.917-1.251 6.694-.871 10.398 1.218l5.893-10.454Zm-32.62-20.128C46.452 111.022 49 103.1 49 96H37c0 4.563-1.64 8.333-4.358 10.365l7.187 9.61Zm78.679 19.575c-5.536 3.298-10.517 8.982-11.406 16.446l11.916 1.419c.329-2.765 2.318-5.582 5.632-7.557l-6.142-10.308Zm20.402-1.953c-7.094-3.042-14.669-1.463-20.402 1.953l6.142 10.308c3.382-2.015 6.872-2.372 9.53-1.233l4.73-11.028Zm-53.803 20.135c-.968-8.127-6.58-14.202-12.658-17.629l-5.893 10.454c3.866 2.179 6.253 5.385 6.635 8.594l11.916-1.419ZM141 96c0 6.389 2.398 13.414 8.32 17.842l7.186-9.61C154.374 102.638 153 99.668 153 96h-12Zm8.32-17.842C143.398 82.586 141 89.61 141 96h12c0-3.668 1.374-6.638 3.506-8.232l-7.186-9.61ZM118.507 56.45c5.733 3.416 13.308 4.995 20.401 1.953l-4.729-11.029c-2.658 1.14-6.148.782-9.53-1.233l-6.142 10.31Zm-11.406-16.446c.889 7.464 5.87 13.148 11.406 16.446l6.142-10.309c-3.314-1.974-5.303-4.79-5.632-7.556l-11.916 1.419Z"
+              />
+              <path
+                stroke="#1782c0"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="12"
+                d="M96 120c13.255 0 24-10.745 24-24s-10.745-24-24-24-24 10.745-24 24 10.745 24 24 24Z"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a network engineer, I must validate that my Firewalls are
+              working as intended.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Broadcast 1 -->
+            <svg
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1782c0"
+            >
+              <title>broadcast-solid</title>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="invisible_box" data-name="invisible box">
+                  <rect width="48" height="48" fill="none" />
+                </g>
+                <g id="icons_Q2" data-name="icons Q2">
+                  <circle cx="24" cy="24" r="5" />
+                  <path
+                    d="M17.4,31.5a2.1,2.1,0,0,1-2.8,3,14.3,14.3,0,0,1,0-21,2.1,2.1,0,0,1,2.8,3,10,10,0,0,0,0,15Z"
+                  />
+                  <path
+                    d="M38,24a14.2,14.2,0,0,1-4.6,10.5,2.1,2.1,0,0,1-2.8-3,10,10,0,0,0,0-15,2.1,2.1,0,1,1,2.8-3A14.2,14.2,0,0,1,38,24Z"
+                  />
+                  <path
+                    d="M46,24a21.1,21.1,0,0,1-6.6,15.4,2,2,0,0,1-2.8-2.8,17.4,17.4,0,0,0,0-25.2,2,2,0,0,1,2.8-2.8A21.1,21.1,0,0,1,46,24Z"
+                  />
+                  <path
+                    d="M11.4,36.6a2,2,0,0,1-2.8,2.8,21.3,21.3,0,0,1,0-30.8,2,2,0,0,1,2.8,2.8,17.4,17.4,0,0,0,0,25.2Z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <div class="problem-statement">
+              As a sysadmin, I need to identify all the insecure hostname
+              queries on the network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- World Network -->
+            <svg
+              viewBox="0 0 1024 1024"
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M372.288 745.792a394.048 394.048 0 0 0 113.728 102.848v-127.744a390.08 390.08 0 0 0-113.728 24.896z m-51.584 24.192a392.96 392.96 0 0 0-60.16 41.6h-1.28a390.336 390.336 0 0 0 205.696 89.6 450.24 450.24 0 0 1-144.256-131.2z m-24.704-230.016c3.968 56.768 20.096 110.208 45.696 157.696a445.696 445.696 0 0 1 144.32-32.896v-124.8h-190.08z m-56.128 0H120.96a390.4 390.4 0 0 0 98.56 233.024c22.208-19.2 46.272-36.224 71.808-50.752a445.312 445.312 0 0 1-51.456-182.272z m445.824 158.784c25.984-47.808 42.24-101.568 46.336-158.72H540.992v124.864c51.072 3.2 99.776 14.976 144.704 33.92z m50.24 24.96c24.448 14.08 47.552 30.464 68.928 48.896a390.4 390.4 0 0 0 98.176-232.576h-114.88a445.312 445.312 0 0 1-52.224 183.68z m-194.944 125.44a394.048 394.048 0 0 0 113.92-102.4 389.888 389.888 0 0 0-113.92-25.728v128.192z m23.104 51.392a390.4 390.4 0 0 0 200.704-88.96h-0.512a392.96 392.96 0 0 0-57.92-40.32 450.24 450.24 0 0 1-142.272 129.28zM341.76 326.144a389.632 389.632 0 0 0-45.76 157.824h190.016V358.976a445.696 445.696 0 0 1-144.256-32.768z m-50.368-24.576a449.216 449.216 0 0 1-71.808-50.56 390.4 390.4 0 0 0-98.56 232.96h118.848a445.312 445.312 0 0 1 51.52-182.4z m194.56-126.208A394.048 394.048 0 0 0 372.48 278.016a390.08 390.08 0 0 0 113.536 24.768V175.36z m-20.992-52.544a390.272 390.272 0 0 0-205.312 89.152h0.512c18.88 15.872 39.168 29.888 60.608 41.92a450.24 450.24 0 0 1 144.192-131.072z m189.76 154.048a394.048 394.048 0 0 0-113.728-102.08v127.808a389.952 389.952 0 0 0 113.728-25.728z m51.392-24.576a392.96 392.96 0 0 0 57.856-40.32h0.384A390.336 390.336 0 0 0 564.16 123.52a450.24 450.24 0 0 1 141.952 128.832z m25.92 231.68a389.632 389.632 0 0 0-46.528-159.168 445.568 445.568 0 0 1-144.512 33.92v125.248h191.04z m56.128 0h114.88a390.4 390.4 0 0 0-98.56-232.96 449.28 449.28 0 0 1-68.736 48.896c29.824 55.424 48.32 117.76 52.416 184.128zM512 960A448 448 0 1 1 512 64a448 448 0 0 1 0 896z"
+                fill="#1782c0"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a sysadmin, it's my responsibility to thoroughly verify that
+              our DNS is set up correctly.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Line Graph -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 5V19C4 19.5523 4.44772 20 5 20H19"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18 9L13 13.9999L10.5 11.4998L7 14.9998"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="problem-statement">
+              As an IT professional, I need to explain the status and importance
+              of our IT assets to nontechnical senior executives.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Mail Exclaim -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 15V18M19 21H19.01M15 19H6.2C5.0799 19 4.51984 19 4.09202 18.782C3.71569 18.5903 3.40973 18.2843 3.21799 17.908C3 17.4802 3 16.9201 3 15.8V8.2C3 7.0799 3 6.51984 3.21799 6.09202C3.40973 5.71569 3.71569 5.40973 4.09202 5.21799C4.51984 5 5.0799 5 6.2 5H17.8C18.9201 5 19.4802 5 19.908 5.21799C20.2843 5.40973 20.5903 5.71569 20.782 6.09202C21 6.51984 21 7.0799 21 8.2V11.5M20.6067 8.26229L15.5499 11.6335C14.2669 12.4888 13.6254 12.9165 12.932 13.0827C12.3192 13.2295 11.6804 13.2295 11.0677 13.0827C10.3743 12.9165 9.73279 12.4888 8.44975 11.6335L3.14746 8.09863"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <div class="problem-statement">
+              As a network engineer or security professional, I need to know if
+              any unauthorized communications are happening in my network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Alarm 1 -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.9997 12.5815V9.58148M11.9997 15.5815H12.0097M18.9997 20.5815L16.4094 18.0182M4.9997 20.5815L7.59001 18.0182M6.74234 3.99735C6.36727 3.62228 5.85856 3.41156 5.32812 3.41156C4.79769 3.41156 4.28898 3.62228 3.91391 3.99735C3.53884 4.37242 3.32813 4.88113 3.32812 5.41156C3.32812 5.942 3.53884 6.4507 3.91391 6.82578M20.0858 6.82413C20.4609 6.44905 20.6716 5.94035 20.6716 5.40991C20.6716 4.87948 20.4609 4.37077 20.0858 3.9957C19.7107 3.62063 19.202 3.40991 18.6716 3.40991C18.1411 3.40991 17.6324 3.62063 17.2574 3.9957M18.9997 12.5815C18.9997 16.4475 15.8657 19.5815 11.9997 19.5815C8.1337 19.5815 4.9997 16.4475 4.9997 12.5815C4.9997 8.71549 8.1337 5.58149 11.9997 5.58149C15.8657 5.58149 18.9997 8.71549 18.9997 12.5815Z"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a sysadmin or network admin, I need to know if any of my
+              machines are trying to talk to services that don't exist.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Radar -->
+            <svg
+              fill="#1782c0"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.778,4.222A11,11,0,1,1,12,1a1,1,0,0,1,1,1v8.277a2,2,0,1,1-2,0V7.621a4.49,4.49,0,1,0,4.182,1.2A1,1,0,0,1,16.6,7.4,6.505,6.505,0,1,1,11,5.585V3.055a9,9,0,1,0,7.364,2.581,1,1,0,1,1,1.414-1.414Z"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a security professional, I need to know what, if any, machines
+              are scanning my network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Magnifying Glass -->
+            <svg
+              fill="#1782c0"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M503.847,432.949l-89.897-89.897c-0.002-0.002-0.003-0.003-0.006-0.006s-0.003-0.003-0.006-0.006l-32.135-32.135
+			c-10.855-10.856-28.522-10.86-39.381,0l-3.939,3.939l-13.571-13.571c26.587-31.878,42.607-72.861,42.607-117.519
+			C367.517,82.432,285.085,0,183.762,0S0.009,82.432,0.009,183.754s82.43,183.754,183.753,183.754
+			c44.658,0,85.641-16.02,117.519-42.606l13.571,13.57l-3.94,3.94c-10.854,10.857-10.854,28.523,0.002,39.381l122.043,122.043
+			c10.881,10.883,28.499,10.886,39.383,0.001l31.506-31.506C514.705,461.474,514.705,443.808,503.847,432.949z M183.762,334.091
+			c-82.896,0-150.337-67.441-150.337-150.337S100.866,33.417,183.762,33.417S334.1,100.858,334.1,183.754
+			S266.658,334.091,183.762,334.091z M338.482,362.103l23.629-23.629l16.388,16.388l-23.629,23.629L338.482,362.103z
+			 M452.649,476.269l-74.15-74.15l23.629-23.629l74.15,74.15L452.649,476.269z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M183.76,66.835c-9.228,0-16.709,7.481-16.709,16.709c0,9.228,7.481,16.709,16.709,16.709
+			c46.045,0,83.505,37.457,83.505,83.5c0,9.228,7.481,16.709,16.709,16.709c9.228,0,16.709-7.481,16.709-16.709
+			C300.683,119.284,248.231,66.835,183.76,66.835z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <div class="problem-statement">
+              As a sysadmin or network admin, I need to know if any devices are
+              missing from my network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Hacker 1 -->
+            <svg
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1782c0"
+            >
+              <title>hacker-solid</title>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="invisible_box" data-name="invisible box">
+                  <rect width="48" height="48" fill="none" />
+                </g>
+                <g id="Q3_icons" data-name="Q3 icons">
+                  <g>
+                    <path
+                      d="M24,30a60.3,60.3,0,0,1-13-1.3L7,27.6V40.2a1.9,1.9,0,0,0,1.5,1.9l12,2.9a2.4,2.4,0,0,0,2.1-.8L24,42.5l1.4,1.7A2.1,2.1,0,0,0,27,45h.5l12-2.9A1.9,1.9,0,0,0,41,40.2V27.6l-4,1.1A60.3,60.3,0,0,1,24,30Zm-7,8c-2,0-4-1.9-4-3s2-1,4-1,4,.9,4,2S19,38,17,38Zm14,0c-2,0-4-.9-4-2s2-2,4-2,4-.1,4,1S33,38,31,38Z"
+                    />
+                    <path
+                      d="M39.4,16,37.3,6.2A4,4,0,0,0,33.4,3H29.1a3.9,3.9,0,0,0-3.4,1.9L24,7.8,22.3,4.9A3.9,3.9,0,0,0,18.9,3H14.6a4,4,0,0,0-3.9,3.2L8.6,16C4.5,17.3,2,19,2,21c0,3.9,9.8,7,22,7s22-3.1,22-7C46,19,43.5,17.3,39.4,16Z"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div class="problem-statement">
+              As a security professional, I need a way to slow down attackers in
+              my network, so I have time to respond.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Network 3 -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 12H21M12 8V12M6.5 12V16M17.5 12V16M10.1 8H13.9C14.4601 8 14.7401 8 14.954 7.89101C15.1422 7.79513 15.2951 7.64215 15.391 7.45399C15.5 7.24008 15.5 6.96005 15.5 6.4V4.6C15.5 4.03995 15.5 3.75992 15.391 3.54601C15.2951 3.35785 15.1422 3.20487 14.954 3.10899C14.7401 3 14.4601 3 13.9 3H10.1C9.53995 3 9.25992 3 9.04601 3.10899C8.85785 3.20487 8.70487 3.35785 8.60899 3.54601C8.5 3.75992 8.5 4.03995 8.5 4.6V6.4C8.5 6.96005 8.5 7.24008 8.60899 7.45399C8.70487 7.64215 8.85785 7.79513 9.04601 7.89101C9.25992 8 9.53995 8 10.1 8ZM15.6 21H19.4C19.9601 21 20.2401 21 20.454 20.891C20.6422 20.7951 20.7951 20.6422 20.891 20.454C21 20.2401 21 19.9601 21 19.4V17.6C21 17.0399 21 16.7599 20.891 16.546C20.7951 16.3578 20.6422 16.2049 20.454 16.109C20.2401 16 19.9601 16 19.4 16H15.6C15.0399 16 14.7599 16 14.546 16.109C14.3578 16.2049 14.2049 16.3578 14.109 16.546C14 16.7599 14 17.0399 14 17.6V19.4C14 19.9601 14 20.2401 14.109 20.454C14.2049 20.6422 14.3578 20.7951 14.546 20.891C14.7599 21 15.0399 21 15.6 21ZM4.6 21H8.4C8.96005 21 9.24008 21 9.45399 20.891C9.64215 20.7951 9.79513 20.6422 9.89101 20.454C10 20.2401 10 19.9601 10 19.4V17.6C10 17.0399 10 16.7599 9.89101 16.546C9.79513 16.3578 9.64215 16.2049 9.45399 16.109C9.24008 16 8.96005 16 8.4 16H4.6C4.03995 16 3.75992 16 3.54601 16.109C3.35785 16.2049 3.20487 16.3578 3.10899 16.546C3 16.7599 3 17.0399 3 17.6V19.4C3 19.9601 3 20.2401 3.10899 20.454C3.20487 20.6422 3.35785 20.7951 3.54601 20.891C3.75992 21 4.03995 21 4.6 21Z"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a network professional, I must know if my network segmentation
+              keeps the data separate.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Checklist 1 -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#1782c0"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8.04832 2.48826C8.33094 2.79108 8.31458 3.26567 8.01176 3.54829L3.72605 7.54829C3.57393 7.69027 3.36967 7.76267 3.1621 7.74818C2.95453 7.7337 2.7623 7.63363 2.63138 7.4719L1.41709 5.9719C1.15647 5.64996 1.20618 5.17769 1.52813 4.91707C1.85007 4.65645 2.32234 4.70616 2.58296 5.0281L3.29089 5.90261L6.98829 2.45171C7.2911 2.16909 7.76569 2.18545 8.04832 2.48826ZM11.25 5C11.25 4.58579 11.5858 4.25 12 4.25H22C22.4142 4.25 22.75 4.58579 22.75 5C22.75 5.41422 22.4142 5.75 22 5.75H12C11.5858 5.75 11.25 5.41422 11.25 5ZM8.04832 9.48826C8.33094 9.79108 8.31458 10.2657 8.01176 10.5483L3.72605 14.5483C3.57393 14.6903 3.36967 14.7627 3.1621 14.7482C2.95453 14.7337 2.7623 14.6336 2.63138 14.4719L1.41709 12.9719C1.15647 12.65 1.20618 12.1777 1.52813 11.9171C1.85007 11.6564 2.32234 11.7062 2.58296 12.0281L3.29089 12.9026L6.98829 9.45171C7.2911 9.16909 7.76569 9.18545 8.04832 9.48826ZM11.25 12C11.25 11.5858 11.5858 11.25 12 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H12C11.5858 12.75 11.25 12.4142 11.25 12ZM8.04832 16.4883C8.33094 16.7911 8.31458 17.2657 8.01176 17.5483L3.72605 21.5483C3.57393 21.6903 3.36967 21.7627 3.1621 21.7482C2.95453 21.7337 2.7623 21.6336 2.63138 21.4719L1.41709 19.9719C1.15647 19.65 1.20618 19.1777 1.52813 18.9171C1.85007 18.6564 2.32234 18.7062 2.58296 19.0281L3.29089 19.9026L6.98829 16.4517C7.2911 16.1691 7.76569 16.1855 8.04832 16.4883ZM11.25 19C11.25 18.5858 11.5858 18.25 12 18.25H22C22.4142 18.25 22.75 18.5858 22.75 19C22.75 19.4142 22.4142 19.75 22 19.75H12C11.5858 19.75 11.25 19.4142 11.25 19Z"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a network admin, it's my responsibility to emphasize to
+              nontechnical people the necessity of cleaning up our network.
+            </div>
+          </div>
+
+          <!-- PROBLEM EXAMPLE -->
+          <div style="display: flex; flex-direction: row; gap: 16px">
+            <!-- Hourglass -->
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 18H9M14 6H10M20 3H19M19 3H5M19 3C19 5.51022 17.7877 7.86592 15.7451 9.32495L12 12M5 3H4M5 3C5 5.51022 6.21228 7.86592 8.25493 9.32495L12 12M20 21H19M19 21H5M19 21C19 18.4898 17.7877 16.1341 15.7451 14.675L12 12M5 21H4M5 21C5 18.4898 6.21228 16.1341 8.25493 14.675L12 12"
+                stroke="#1782c0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="problem-statement">
+              As a network admin, it's essential for me to understand the load
+              that Windows Update Delivery Optimization (WUDO) puts on our
+              network.
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="section">
+      <div class="section" style="font-size: larger">
         Email us today to start the conversation
         <a href="mailto:support@ridgebacknet.com">contact@ridgebacknet.com</a>
       </div>
       <div
-        style="padding-top: 48px; padding-bottom: 48px; text-align-last: center"
+        style="
+          padding-top: 48px;
+          padding-bottom: 48px;
+          text-align-last: center;
+          font-size: smaller;
+        "
       >
         Copyright ©2024 Ridgeback Network Defense, Inc. All rights reserved.
       </div>

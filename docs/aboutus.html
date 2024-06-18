@@ -8,7 +8,7 @@
 
   <body>
     <div class="container">
-      <div style="display: flex; justify-content: space-between; padding: 16px">
+      <div style="display: flex; justify-content: space-between; padding: 32px">
         <a href="index.html">
           <img src="RidgebackLogo.png" alt="Ridgeback Logo" width="350px" />
         </a>
@@ -20,8 +20,10 @@
             font-size: large;
           "
         >
-          <a href="aboutus.html">About us</a>
-          <a href="mailto:support@ridgebacknet.com">Contact us</a>
+          <a href="aboutus.html" style="text-decoration: none">About us</a>
+          <a href="mailto:support@ridgebacknet.com">
+            <button class="email-button">Contact us</button>
+          </a>
         </div>
       </div>
 
@@ -38,10 +40,22 @@
           <div>Ridgeback Network Defense, Inc</div>
         </div>
         <div>
-          <p>THIS IS HOW IT STARTED</p>
-          <div style="font-size: xx-large">
-            Automated attacks need an automated defense - by Tom Phillips,
-            Founder &amp; CTO
+          <div
+            class="font-dark-blue"
+            style="font-size: xx-large; font-weight: bold"
+          >
+            Automated attacks need an automated defense
+          </div>
+          <div
+            style="
+              font-size: large;
+              font-style: italic;
+              padding-left: 16px;
+              line-height: 0.5;
+              padding-bottom: 16px;
+            "
+          >
+            -Tom Phillips, Founder &amp; CTO
           </div>
           <div>
             <p><strong>There are two parallel threads.</strong></p>
@@ -106,124 +120,198 @@
         </div>
       </div>
 
-      <div
-        class="section"
-        style="display: flex; flex-direction: row; column-gap: 32px"
-      >
-        <div>
-          <div style="font-size: xx-large">
-            We are a small, smart, and agile company with big plans.
-          </div>
-          <div>
-            <div>
-              We are Ridgeback Network Defense, a cybersecurity company based in
-              Baltimore, MD and we understand we are in charge of our own
-              destiny.
-            </div>
-            <div style="font-weight: bold; font-size: larger">
-              Cybersecurity is our job.
-            </div>
-            <div>
-              The world is in perpetual cyber-war and we understand people
-              depend on us.
-            </div>
-            <div style="font-weight: bold; font-size: larger">
-              We are warriors.
-            </div>
-            <div>
-              We build and deploy tools to battle despicable criminals who would
-              rob our families and hijack our hospitals.
-            </div>
-            <div style="font-weight: bold; font-size: larger">
-              We like hard challenges.
-            </div>
-            <div>
-              Most people like the easy life, but we think the easy life is
-              boring.
-            </div>
-            <div style="font-weight: bold; font-size: larger">
-              We stand together.
-            </div>
-            <div>Our team is our family and we will fight for them.</div>
-            <div style="font-weight: bold; font-size: larger">
-              We value integrity.
-            </div>
-            <div>
-              We boldly say what we mean and we don’t try to hide the truth.
-            </div>
-            <div>
-              If you have a technical mind, enjoy working with other people, and
-              want to be in charge of your destiny and make the world a safer
-              place, you’ll fit in.&nbsp;
-            </div>
-            <div>Write to us.</div>
-          </div>
-          <div>
-            <a href="mailto:contact@ridgebacknet.com">Contact us</a>
-          </div>
-        </div>
+      <div class="section">
         <div
-          style="display: flex; flex-direction: row; gap: 32px; flex-wrap: wrap"
+          class="font-dark-blue"
+          style="
+            font-size: xx-large;
+            text-align: center;
+            padding-bottom: 64px;
+            font-weight: bolder;
+          "
         >
-          <div style="display: flex; flex-direction: column">
-            <img
-              src="Scott-CEO-Ridgeback-Defense.jpeg"
-              alt="Scott Fogarty CEO"
-              width="200px"
-              height="200px"
-              style="border-radius: 16px"
-              class="grayscale"
-            />
-            <div style="font-weight: bold; margin-top: 8px">Scott Fogarty</div>
-            <div style="font-size: small">CEO</div>
-          </div>
-          <div style="display: flex; flex-direction: column">
-            <img
-              src="Thomas-Phillips.jpg"
-              alt="Thomas Phillips"
-              width="200px"
-              height="200px"
-              style="border-radius: 16px"
-              class="grayscale"
-            />
-            <div style="font-weight: bold; margin-top: 8px">
-              Thomas Phillips
+          We are a small, smart, and agile company with big plans.
+        </div>
+        <div style="display: flex; flex-direction: row; column-gap: 32px">
+          <div>
+            <div>
+              <div
+                style="
+                  font-size: larger;
+                  font-weight: bold;
+                  padding-bottom: 32px;
+                "
+              >
+                We are Ridgeback Network Defense, a cybersecurity company based
+                in Baltimore, MD and we understand we are in charge of our own
+                destiny.
+              </div>
+              <div
+                class="font-dark-blue"
+                style="font-weight: bold; font-size: larger"
+              >
+                Cybersecurity is our job.
+              </div>
+              <div class="aboutus-paragraph">
+                The world is in perpetual cyber-war and we understand people
+                depend on us.
+              </div>
+              <div
+                class="font-dark-blue"
+                style="font-weight: bold; font-size: larger"
+              >
+                We are warriors.
+              </div>
+              <div class="aboutus-paragraph">
+                We build and deploy tools to battle despicable criminals who
+                would rob our families and hijack our hospitals.
+              </div>
+              <div
+                class="font-dark-blue"
+                style="font-weight: bold; font-size: larger"
+              >
+                We like hard challenges.
+              </div>
+              <div class="aboutus-paragraph">
+                Most people like the easy life, but we think the easy life is
+                boring.
+              </div>
+              <div
+                class="font-dark-blue"
+                style="font-weight: bold; font-size: larger"
+              >
+                We stand together.
+              </div>
+              <div class="aboutus-paragraph">
+                Our team is our family and we will fight for them.
+              </div>
+              <div
+                class="font-dark-blue"
+                style="font-weight: bold; font-size: larger"
+              >
+                We value integrity.
+              </div>
+              <div class="aboutus-paragraph">
+                We boldly say what we mean and we don’t try to hide the truth.
+              </div>
+              <div style="padding: 32px 0px">
+                If you have a technical mind, enjoy working with other people,
+                and want to be in charge of your destiny and make the world a
+                safer place, you’ll fit in.&nbsp;
+              </div>
+              <div style="padding-bottom: 16px">Write to us.</div>
             </div>
-            <div style="font-size: small">CTO, Co-Founder</div>
+            <a href="mailto:support@ridgebacknet.com">
+              <button class="email-button">Contact us</button>
+            </a>
           </div>
-          <div style="display: flex; flex-direction: column">
-            <img
-              src="Steve-Rixse-Ridgeback-Defense.jpg"
-              alt="Steve Rixse"
-              width="200px"
-              height="200px"
-              style="border-radius: 16px"
-              class="grayscale"
-            />
-            <div style="font-weight: bold; margin-top: 8px">Steve Rixse</div>
-            <div style="font-size: small">VP, Co-Founder</div>
-          </div>
-          <div style="display: flex; flex-direction: column">
-            <img
-              src="Jorge-Antunez-Ridgeback.jpg"
-              alt="Jorge Antunez"
-              width="200px"
-              height="200px"
-              style="border-radius: 16px"
-              class="grayscale"
-            />
-            <div style="font-weight: bold; margin-top: 8px">Jorge Antunez</div>
-            <div style="font-size: small">VP Corporate Development</div>
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              gap: 32px;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              align-content: baseline;
+            "
+          >
+            <div class="aboutus-employee-box">
+              <img
+                src="Scott-CEO-Ridgeback-Defense.jpeg"
+                alt="Scott Fogarty CEO"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">
+                Scott Fogarty
+              </div>
+              <div style="font-size: small">CEO</div>
+            </div>
+            <div class="aboutus-employee-box">
+              <img
+                src="Thomas-Phillips.jpg"
+                alt="Thomas Phillips"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">
+                Thomas Phillips
+              </div>
+              <div style="font-size: small">CTO, Co-Founder</div>
+            </div>
+            <div class="aboutus-employee-box">
+              <img
+                src="Steve-Rixse-Ridgeback-Defense.jpg"
+                alt="Steve Rixse"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">Steve Rixse</div>
+              <div style="font-size: small">VP, Co-Founder</div>
+            </div>
+            <div class="aboutus-employee-box">
+              <img
+                src="Jorge-Antunez-Ridgeback.jpg"
+                alt="Jorge Antunez"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">
+                Jorge Antunez
+              </div>
+              <div style="font-size: small">VP Corporate Development</div>
+            </div>
+            <div class="aboutus-employee-box">
+              <img
+                src="Steve-Oliphant.jpg"
+                alt="Steve Oliphant"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">
+                Steve Oliphant
+              </div>
+              <div style="font-size: small">Solutions Engineer</div>
+            </div>
+            <div class="aboutus-employee-box">
+              <img
+                src="Sam-Kushner-Solutions-Engineer.jpg"
+                alt="Samuel Kushner"
+                width="200px"
+                height="200px"
+                style="border-radius: 16px"
+                class="grayscale"
+              />
+              <div style="font-weight: bold; margin-top: 8px">
+                Samuel Kushner
+              </div>
+              <div style="font-size: small">Solutions Engineer</div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" style="font-size: larger">
         Email us today to start the conversation
         <a href="mailto:support@ridgebacknet.com">contact@ridgebacknet.com</a>
       </div>
       <div
-        style="padding-top: 48px; padding-bottom: 48px; text-align-last: center"
+        style="
+          padding-top: 48px;
+          padding-bottom: 48px;
+          text-align-last: center;
+          font-size: smaller;
+        "
       >
         Copyright ©2024 Ridgeback Network Defense, Inc. All rights reserved.
       </div>

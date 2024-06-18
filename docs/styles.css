@@ -27,19 +27,43 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
+  background-color: var(--dark-blue);
 }
+svg {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.problem-statement {
+  min-width: 100px;
+  max-width: 220px;
+  /* background-color: red; */
+}
+
 .section {
-  padding: 64px 0;
-  border-bottom-width: 2px;
+  padding: 64px 64px;
+  border-bottom-width: 1.5px;
   border-bottom-color: var(--dark-grey);
   border-bottom-style: solid;
   /* border-bottom-left-radius: 10px; */
   /* border-bottom-right-radius: 10px; */
 }
 
+.aboutus-paragraph {
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.aboutus-employee-box {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   /*default - tiny mobile view. mobile first design*/
   width: 100%;
+  background-color: white;
 
   /*sm (640px)	min-width: 640px;*/
   @media (min-width: 640px) {
@@ -78,7 +102,7 @@ body {
 
 /* Define link colors */
 a {
-  text-decoration: none; /* Remove underline */
+  /* text-decoration: none; Remove underline */
 }
 
 a:link {
@@ -96,6 +120,33 @@ a:hover {
 
 a:active {
   color: var(--blue); /* Active link color */
+}
+
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--dark-blue); /* Blue background */
+  color: white;
+  text-decoration: none;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  border-style: none;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  background-color: var(--light-blue); /* Darker blue on hover */
+}
+
+.font-dark-blue {
+  color: var(--dark-blue);
+}
+
+.font-dark-red {
+  color: var(--dark-red);
 }
 
 .grayscale {
