@@ -13,9 +13,11 @@
 
 /* Define custom colors in the :root selector */
 :root {
+  --lightest-blue: #6ed2ff;
   --light-blue: #37c3ff;
   --blue: #0eb0f5;
   --dark-blue: #1782c0;
+  --darkest-blue: #005a8d;
   --dark-grey: #5e6e6e;
   --dark-red: #804e58;
 }
@@ -37,17 +39,27 @@ svg {
 
 .problem-statement {
   min-width: 100px;
-  max-width: 220px;
   /* background-color: red; */
+}
+/*md (768px) */
+@media (min-width: 768px) {
+  .problem-statement {
+    max-width: 220px;
+    /* background-color: red; */
+  }
 }
 
 .section {
-  padding: 64px 64px;
+  padding: 24px 24px;
   border-bottom-width: 1.5px;
   border-bottom-color: var(--dark-grey);
   border-bottom-style: solid;
-  /* border-bottom-left-radius: 10px; */
-  /* border-bottom-right-radius: 10px; */
+}
+/*md (768px) */
+@media (min-width: 768px) {
+  .section {
+    padding: 64px 64px;
+  }
 }
 
 .aboutus-paragraph {
@@ -63,43 +75,57 @@ svg {
   width: 200px;
 }
 
+.navbar-logo {
+  max-width: 100%;
+}
+/*md (768px) */
+@media (min-width: 768px) {
+  .navbar-logo {
+    max-width: 350px;
+  }
+}
+
 .container {
   /*default - tiny mobile view. mobile first design*/
   width: 100%;
   background-color: white;
-
-  /*sm (640px)	min-width: 640px;*/
-  @media (min-width: 640px) {
-    /* CSS that should be displayed if width is equal to or greater than 640px goes here */
-    /* max-width: 640px; */
-  }
-
-  /*md (768px)	min-width: 768px;*/
-  @media (min-width: 768px) {
-    /* CSS that should be displayed if width is equal to or greater than 768px goes here */
-    /* max-width: 768px; */
-  }
-
-  /*lg (1024px)	min-width: 1024px;*/
-  @media (min-width: 1024px) {
-    /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
-    max-width: 1024px;
-  }
-
-  /*xl (1280px)	min-width: 1280px;*/
-  @media (min-width: 1280px) {
-    /* CSS that should be displayed if width is equal to or greater than 1280px goes here */
-    max-width: 1280px;
-  }
-
-  /*2xl (1536px)	min-width: 1536px;*/
-  @media (min-width: 1536px) {
-    /* CSS that should be displayed if width is equal to or greater than 1536px goes here */
-    max-width: 1536px;
-  }
-
   margin-left: auto;
   margin-right: auto;
+}
+
+/*sm (640px) */
+@media (min-width: 640px) and (max-width: 767px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/*md (768px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/*xl (1280px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/*2xl (1536px) */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
 
 .aboutus-employee-section {
@@ -142,6 +168,17 @@ a:active {
 
 .font-dark-blue {
   color: var(--dark-blue);
+}
+
+.font-blue-gradient {
+  color: transparent; /* Make text transparent */
+  background: linear-gradient(
+    135deg,
+    var(--lightest-blue),
+    var(--darkest-blue)
+  ); /* Define gradient colors */
+  -webkit-background-clip: text; /* Apply gradient to text only */
+  background-clip: text; /* Apply gradient to text only */
 }
 
 .font-dark-red {
