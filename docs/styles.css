@@ -47,13 +47,22 @@ svg {
 @media (min-width: 768px) {
   .chaos-order-container {
     flex-wrap: nowrap;
-    gap: 40px;
   }
 }
 /*xl (1280px) */
 @media (min-width: 1280px) {
   .chaos-order-container {
     gap: 64px;
+  }
+}
+
+.chaos-order-text {
+  font-size: small;
+}
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .chaos-order-text {
+    font-size: medium;
   }
 }
 
