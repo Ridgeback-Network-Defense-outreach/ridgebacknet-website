@@ -123,19 +123,6 @@ svg {
   }
 }
 
-.aboutus-paragraph {
-  padding-bottom: 16px;
-  padding-left: 16px;
-}
-
-.aboutus-employee-box {
-  display: flex;
-  flex-direction: column;
-  /* min-width: fit-content;
-  max-width: 200px; */
-  width: 200px;
-}
-
 .navbar-logo {
   max-width: 100%;
 }
@@ -189,16 +176,6 @@ svg {
   }
 }
 
-.aboutus-employee-section {
-  flex-direction: column;
-
-  /*lg (1024px)	min-width: 1024px;*/
-  @media (min-width: 1024px) {
-    /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
-    flex-direction: row;
-  }
-}
-
 /* Define link colors */
 a {
   /* text-decoration: none; Remove underline */
@@ -244,6 +221,27 @@ a:active {
 
 .font-dark-red {
   color: var(--dark-red);
+}
+
+.aboutus-paragraph {
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.aboutus-employee-box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.aboutus-employee-section {
+  flex-direction: column;
+
+  /*lg (1024px)	min-width: 1024px;*/
+  @media (min-width: 1024px) {
+    /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
+    flex-direction: row;
+  }
 }
 
 .grayscale {
