@@ -82,11 +82,12 @@ svg {
   font-size: 26px;
   text-align: center;
   font-weight: bolder;
+  margin-bottom: 16px;
 }
 /*md (768px) */
 @media (min-width: 768px) {
   .title-pt2 {
-    font-size: 40px;
+    font-size: 48px;
   }
 }
 
@@ -103,13 +104,11 @@ svg {
 
 .problem-statement {
   min-width: 100px;
-  /* background-color: red; */
 }
 /*md (768px) */
 @media (min-width: 768px) {
   .problem-statement {
     max-width: 220px;
-    /* background-color: red; */
   }
 }
 
@@ -265,4 +264,40 @@ a:active {
 
 .grayscale:hover {
   filter: grayscale(0%) sepia(100%) hue-rotate(170deg);
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 16px;
+}
+
+.aboutus-advisor-box {
+  flex: 1 1 50%;
+  max-width: 20%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.aboutus-advisor-box img {
+}
+
+.aboutus-advisor-prevroles-section {
+  padding-top: 12px;
+}
+
+.aboutus-advisor-prevroles-section li span {
+  position: relative;
+  left: -5px;
+}
+
+.aboutus-advisor-prevrole {
+  font-size: small;
+}
+
+.aboutus-advisor-prevroles-title {
+  font-size: x-small;
+  font-weight: bold;
 }
