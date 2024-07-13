@@ -137,7 +137,7 @@ svg {
 /*md (768px) */
 @media (min-width: 768px) {
   .navbar-logo {
-    max-width: 350px;
+    max-width: 400px;
   }
 }
 
@@ -236,6 +236,42 @@ a:active {
   padding-left: 16px;
 }
 
+.aboutus-paragraphtest3 {
+  padding-left: 16px;
+}
+
+.aboutus-paragraphcardcontainertest3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
+  .aboutus-paragraphcardcontainertest3 {
+    flex-direction: row;
+  }
+}
+
+.aboutus-paragraphcardtest3 {
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .aboutus-paragraphcardtest3 {
+    /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
+    width: 25%;
+  }
+}
+/*xl (1280px) */
+@media (min-width: 1280px) {
+  .aboutus-paragraphcardtest3 {
+    max-width: 16%;
+  }
+}
+
 .aboutus-employee-box {
   display: flex;
   flex-direction: column;
@@ -249,6 +285,14 @@ a:active {
   @media (min-width: 1024px) {
     /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
     flex-direction: row;
+  }
+}
+
+.aboutus-employee-sectiontest3 {
+  /*lg (1024px)	min-width: 1024px;*/
+  @media (min-width: 1024px) {
+    /* CSS that should be displayed if width is equal to or greater than 1024px goes here */
+    max-width: 100%;
   }
 }
 
