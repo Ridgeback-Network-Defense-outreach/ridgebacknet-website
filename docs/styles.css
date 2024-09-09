@@ -345,3 +345,21 @@ ul {
   font-size: x-small;
   font-weight: bold;
 }
+
+.imagespage-image {
+  width: 48%;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .imagespage-image {
+    width: 32%;
+  }
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .imagespage-image {
+    width: 24%;
+  }
+}
