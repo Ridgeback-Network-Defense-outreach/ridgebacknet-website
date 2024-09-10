@@ -346,6 +346,67 @@ ul {
   font-weight: bold;
 }
 
+.aboutus-tom-interview {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .aboutus-tom-interview {
+    flex-direction: row;
+  }
+}
+
+.aboutus-tom-interview-tom-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .aboutus-tom-interview-tom-box {
+    align-items: start;
+  }
+}
+
+.aboutus-tom-interview-tom-box-image {
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .aboutus-tom-interview-tom-box-image {
+    width: 200px;
+  }
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .aboutus-tom-interview-tom-box-image {
+    width: 300px;
+  }
+}
+
+.aboutus-tom-interview-title {
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 8px;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .aboutus-tom-interview-title {
+    line-height: 1.5;
+    padding-bottom: 0px;
+  }
+}
+
 .imagespage-image {
   width: 48%;
 }
@@ -361,5 +422,54 @@ ul {
 @media (min-width: 1024px) {
   .imagespage-image {
     width: 24%;
+  }
+}
+
+.leadership-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 16px;
+  justify-content: center;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .leadership-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .leadership-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+.leadership-container-title {
+  font-size: 20px;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.leadership-card {
+  width: auto;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .leadership-card {
+    width: 45%;
+  }
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .leadership-card {
+    width: auto;
   }
 }
