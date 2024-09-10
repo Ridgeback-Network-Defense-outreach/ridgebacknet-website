@@ -47,6 +47,13 @@ svg {
 @media (min-width: 768px) {
   .chaos-order-container {
     flex-wrap: nowrap;
+    gap: 12px;
+  }
+}
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .chaos-order-container {
+    gap: 32px;
   }
 }
 /*xl (1280px) */
@@ -58,6 +65,8 @@ svg {
 
 .chaos-order-text {
   font-size: small;
+  text-wrap: balance;
+  text-align: center;
 }
 /*lg (1024px) */
 @media (min-width: 1024px) {
@@ -67,7 +76,8 @@ svg {
 }
 
 .title-pt1 {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: clamp(20px, 3vw, 40px); /* minimum, preferred, and maximum sizes */
   text-align: center;
   font-weight: bolder;
 }
@@ -79,7 +89,8 @@ svg {
 }
 
 .title-pt2 {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: clamp(30px, 5vw, 48px); /* minimum, preferred, and maximum sizes */
   text-align: center;
   font-weight: bolder;
   margin-bottom: 16px;
@@ -113,7 +124,7 @@ svg {
 }
 
 .section {
-  padding: 24px 16px;
+  padding: 24px 12px;
   border-bottom-width: 1.5px;
   border-bottom-color: var(--dark-grey);
   border-bottom-style: solid;
@@ -121,7 +132,13 @@ svg {
 /*md (768px) through lg */
 @media (min-width: 768px) {
   .section {
-    padding: 40px 40px;
+    padding: 40px 12px;
+  }
+}
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .section {
+    padding: 40px 32px;
   }
 }
 /*xl (1280px) */
