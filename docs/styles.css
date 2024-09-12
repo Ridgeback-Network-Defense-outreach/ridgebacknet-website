@@ -25,6 +25,34 @@
 /* USAGE EXAMPLE */
 /* background-color: var(--light-blue); */
 
+.email-button {
+  color: white;
+  background-color: var(--dark-red);
+  padding: 8px 16px;
+  border-radius: 48px;
+  border-style: none;
+  cursor: pointer;
+  width: max-content;
+}
+
+.email-button-a {
+  text-decoration: none;
+  flex-basis: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*sm (640px) */
+@media (min-width: 640px) {
+  .email-button-a {
+    flex-basis: initial;
+    margin: initial;
+    display: initial;
+    justify-content: initial;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -158,6 +186,27 @@ svg {
   }
 }
 
+.navbar-links {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  text-wrap: nowrap;
+  flex-wrap: wrap;
+
+  gap: 16px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .navbar-links {
+    gap: 40px;
+    width: initial;
+    justify-content: initial;
+  }
+}
+
 .container {
   /*default - tiny mobile view. mobile first design*/
   width: 100%;
@@ -221,12 +270,6 @@ a:hover {
 
 a:active {
   color: var(--blue); /* Active link color */
-}
-
-.email-button {
-  border-style: none;
-  cursor: pointer;
-  padding: 0px;
 }
 
 .font-dark-blue {
