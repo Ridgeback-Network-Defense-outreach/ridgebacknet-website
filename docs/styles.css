@@ -19,7 +19,11 @@
   --dark-blue: #1782c0;
   --darkest-blue: #005a8d;
   --dark-grey: #5e6e6e;
-  --dark-red: #804e58;
+  --lightest-red: #efbbc6;
+  --light-red: #eb6f89;
+  --red: #e14767;
+  --dark-red: #b3344e;
+  --darkest-red: #804e58;
 }
 
 /* USAGE EXAMPLE */
