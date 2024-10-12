@@ -540,7 +540,7 @@ ul {
 
 .RRI-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-around;
   gap: 40px;
 }
@@ -549,9 +549,10 @@ ul {
 @media (min-width: 768px) {
   .RRI-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 0px;
+    row-gap: 40px;
   }
 }
 
@@ -564,7 +565,7 @@ ul {
 /*md (768px) */
 @media (min-width: 768px) {
   .RRI-card {
-    width: 40%;
+    width: 45%;
   }
 }
 
@@ -572,7 +573,18 @@ ul {
 @media (min-width: 1024px) {
   .RRI-card {
     width: 30%;
-    align-self: start;
+    /* align-self: start; */
+  }
+}
+
+.RRI-card-3cats {
+  padding-right: 0px;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .RRI-card-3cats {
+    padding-right: 24px;
   }
 }
 
