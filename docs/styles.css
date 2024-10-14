@@ -180,6 +180,37 @@ svg {
   }
 }
 
+/* Define link colors */
+a {
+  /* text-decoration: none; Remove underline */
+}
+
+a:link {
+  color: var(--dark-blue); /* Normal link color */
+}
+
+a:visited {
+  color: var(--dark-blue); /* Visited link color */
+}
+
+a:hover {
+  color: var(--light-blue); /* Hover link color */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+a:active {
+  color: var(--blue); /* Active link color */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .navbar-logo {
   max-width: 100%;
 }
@@ -209,6 +240,11 @@ svg {
     width: initial;
     justify-content: initial;
   }
+}
+
+a.navbar-active-link {
+  color: var(--light-blue); /* Hover link color */
+  text-decoration: none; /* Add underline on hover */
 }
 
 .container {
@@ -252,28 +288,6 @@ svg {
   .container {
     max-width: 1536px;
   }
-}
-
-/* Define link colors */
-a {
-  /* text-decoration: none; Remove underline */
-}
-
-a:link {
-  color: var(--dark-blue); /* Normal link color */
-}
-
-a:visited {
-  color: var(--dark-blue); /* Visited link color */
-}
-
-a:hover {
-  color: var(--light-blue); /* Hover link color */
-  text-decoration: underline; /* Add underline on hover */
-}
-
-a:active {
-  color: var(--blue); /* Active link color */
 }
 
 .font-dark-blue {
