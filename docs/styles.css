@@ -580,6 +580,7 @@ ul {
 @media (min-width: 768px) {
   .RRI-card {
     width: 45%;
+    align-self: start;
   }
 }
 
@@ -587,7 +588,6 @@ ul {
 @media (min-width: 1024px) {
   .RRI-card {
     width: 30%;
-    /* align-self: start; */
   }
 }
 
@@ -599,6 +599,35 @@ ul {
 @media (min-width: 768px) {
   .RRI-card-3cats {
     padding-right: 24px;
+  }
+}
+
+.RRI-card-3cats-def {
+  padding: 12px;
+}
+
+/*md (768px) */
+@media (min-width: 768px) {
+  .RRI-card-3cats-def {
+    padding: 20px;
+  }
+}
+/*lg (1024px) */
+@media (min-width: 1024px) {
+  .RRI-card-3cats-def {
+    padding: 12px;
+  }
+}
+/*xl (1280px) */
+@media (min-width: 1280px) {
+  .RRI-card-3cats-def {
+    padding: 20px;
+  }
+}
+/*2xl (1536px) */
+@media (min-width: 1536px) {
+  .RRI-card-3cats-def {
+    padding: 24px;
   }
 }
 
