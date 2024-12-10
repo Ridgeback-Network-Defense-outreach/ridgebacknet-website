@@ -35,66 +35,55 @@
           </a>
         </div>
       </div>
-      <div
-        class="section"
-        style="
-          display: flex;
-          flex-direction: column;
-          gap: 32px;
-          line-height: normal;
-        "
-      >
-        <div class="font-blue-gradient title-pt1">
-          Your network is loaded with chaos.
-          <span class="line-break"></span>How much risk will you tolerate?
-        </div>
-        <div class="font-blue-gradient title-pt2">
-          Take control of your <span class="line-break"></span>destiny with
-          Ridgeback
-        </div>
-        <div class="chaos-order-container">
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              gap: 16px;
-              align-items: center;
-            "
-          >
-            <img
-              src="img/chaos_708x438.jpg"
-              style="
-                border-radius: 8px;
-                max-width: 100%;
-                box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
-              "
-              alt="chaos"
-            />
-            <div class="chaos-order-text">
-              Is your organization's chaos stressing you out?
-            </div>
+      <div class="section" style="padding-top: 24px">
+        <div class="slideshow-container">
+          <div class="slides">
+            <picture>
+              <source
+                srcset="img/slideshow/chaos_order_SM_767.png"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="img/slideshow/chaos_order_MD_768_1023.png"
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="img/slideshow/chaos_order_LG_1024_1279.png"
+                media="(max-width: 1279px)"
+              />
+              <img
+                src="img/slideshow/chaos_order_XL_1280.png"
+                alt="Image 1"
+                style="width: 100%"
+              />
+            </picture>
           </div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              gap: 16px;
-              align-items: center;
-            "
-          >
-            <img
-              src="img/order_708x438.jpg"
-              style="
-                border-radius: 8px;
-                max-width: 100%;
-                box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
-              "
-              alt="order"
-            />
-            <div class="chaos-order-text">
-              Control the chaos and reduce your cyber risk with Ridgeback.
-            </div>
+          <div class="slides">
+            <picture>
+              <source
+                srcset="img/slideshow/knife_SM_767.png"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="img/slideshow/knife_MD_768_1023.png"
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="img/slideshow/knife_LG_1024_1279.png"
+                media="(max-width: 1279px)"
+              />
+              <img
+                src="img/slideshow/knife_XL_1280.png"
+                alt="Image 2"
+                style="width: 100%"
+              />
+            </picture>
           </div>
+        </div>
+
+        <div class="dots-container">
+          <span class="dot"></span>
+          <span class="dot"></span>
         </div>
       </div>
       <div class="section">
@@ -826,5 +815,50 @@
         </div>
       </div>
     </div>
+
+    <script>
+      let slideIndex = 0;
+      let timerInterval = 5000; // 5 seconds
+      let timer;
+
+      const slides = document.querySelectorAll(".slides");
+      const dots = document.querySelectorAll(".dot");
+
+      // Function to show a specific slide
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+        dots.forEach((dot, i) => {
+          dot.classList.toggle("active", i === index);
+        });
+        slideIndex = index;
+      }
+
+      // Function to start the slideshow timer
+      function startTimer() {
+        clearInterval(timer);
+        timer = setInterval(() => {
+          slideIndex = (slideIndex + 1) % slides.length;
+          showSlide(slideIndex);
+        }, timerInterval);
+      }
+
+      // Event listeners for the dots
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          showSlide(index);
+          timerInterval = 12000; // Temporarily increase timer to 12 seconds
+          startTimer();
+          setTimeout(() => {
+            timerInterval = 6000; // Reset timer to 6 seconds
+          }, 5000);
+        });
+      });
+
+      // Initialize the slideshow
+      showSlide(slideIndex);
+      startTimer();
+    </script>
   </body>
 </html>
