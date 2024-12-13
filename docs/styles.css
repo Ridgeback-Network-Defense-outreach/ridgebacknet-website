@@ -13,17 +13,67 @@
 
 /* Define custom colors in the :root selector */
 :root {
+  --ultraultralight-blue: #d4f4ff;
+  --ultralight-blue: #a6e4ff;
   --lightest-blue: #6ed2ff;
   --light-blue: #37c3ff;
   --blue: #0eb0f5;
   --dark-blue: #1782c0;
   --darkest-blue: #005a8d;
   --dark-grey: #5e6e6e;
+  --ultralight-red: #f9d7df;
+  --extra-light-red: #f4cbd5;
   --lightest-red: #efbbc6;
   --light-red: #eb6f89;
   --red: #e14767;
   --dark-red: #b3344e;
   --darkest-red: #804e58;
+}
+
+.bg-color-lightest-blue {
+  background-color: var(--lightest-blue);
+}
+.bg-color-light-blue {
+  background-color: var(--light-blue);
+}
+.bg-color-blue {
+  background-color: var(--blue);
+}
+.bg-color-dark-blue {
+  background-color: var(--dark-blue);
+}
+.bg-color-darkest-blue {
+  background-color: var(--darkest-blue);
+}
+.bg-color-dark-grey {
+  background-color: var(--dark-grey);
+}
+.bg-color-lightest-red {
+  background-color: var(--lightest-red);
+}
+.bg-color-light-red {
+  background-color: var(--light-red);
+}
+.bg-color-red {
+  background-color: var(--red);
+}
+.bg-color-dark-red {
+  background-color: var(--dark-red);
+}
+.bg-color-darkest-red {
+  background-color: var(--darkest-red);
+}
+.bg-color-ultralight-blue {
+  background-color: var(--ultralight-blue);
+}
+.bg-color-ultraultralight-blue {
+  background-color: var(--ultraultralight-blue);
+}
+.bg-color-ultralight-red {
+  background-color: var(--ultralight-red);
+}
+.bg-color-extra-light-red {
+  background-color: var(--extra-light-red);
 }
 
 /* USAGE EXAMPLE */
@@ -691,4 +741,48 @@ ul {
 
 .dot.active {
   background-color: #717171;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Style the tab container */
+.tab-container {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Style each tab button */
+.tab {
+  flex: 1;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  /* background-color: var(--ultralight-red); */
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  font-size: medium;
+}
+
+/* Active tab style */
+.tab.active {
+  background-color: #fff;
+  border-bottom: 2px solid #007bff;
+  font-weight: bold;
+}
+
+/* Style for content sections */
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+}
+
+.tab-content.active {
+  display: block;
 }

@@ -18,6 +18,7 @@
           flex-wrap: wrap;
         "
         class="navbar"
+        id="main-navbar"
       >
         <a href="index.html">
           <img
@@ -38,28 +39,7 @@
       <div class="section" style="padding-top: 24px">
         <div class="slideshow-container">
           <div class="slides">
-            <picture>
-              <source
-                srcset="img/slideshow/chaos_order_SM_767.png"
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="img/slideshow/chaos_order_MD_768_1023.png"
-                media="(max-width: 1023px)"
-              />
-              <source
-                srcset="img/slideshow/chaos_order_LG_1024_1279.png"
-                media="(max-width: 1279px)"
-              />
-              <img
-                src="img/slideshow/chaos_order_XL_1280.png"
-                alt="Image 1"
-                style="width: 100%"
-              />
-            </picture>
-          </div>
-          <div class="slides">
-            <picture>
+            <picture id="picture-a">
               <source
                 srcset="img/slideshow/knife_SM_767.png"
                 media="(max-width: 767px)"
@@ -75,7 +55,28 @@
               <img
                 src="img/slideshow/knife_XL_1280.png"
                 alt="Image 2"
-                style="width: 100%"
+                style="width: 100%; cursor: pointer"
+              />
+            </picture>
+          </div>
+          <div class="slides">
+            <picture id="picture-b">
+              <source
+                srcset="img/slideshow/chaos_order_SM_767.png"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="img/slideshow/chaos_order_MD_768_1023.png"
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="img/slideshow/chaos_order_LG_1024_1279.png"
+                media="(max-width: 1279px)"
+              />
+              <img
+                src="img/slideshow/chaos_order_XL_1280.png"
+                alt="Image 1"
+                style="width: 100%; cursor: pointer"
               />
             </picture>
           </div>
@@ -86,7 +87,52 @@
           <span class="dot"></span>
         </div>
       </div>
-      <div class="section">
+      <!-- <div
+        class="section"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 24px;
+        "
+      >
+        <button id="buttonA" class="email-button">Business Leadership</button>
+        <button id="buttonB" class="email-button">IT / Security Team</button>
+      </div> -->
+      <div class="tab-container" id="tab-container">
+        <button id="tab-a" class="tab active">Business Leadership</button>
+        <button id="tab-b" class="tab">IT / Security Team</button>
+      </div>
+      <div id="tab-a-content" class="tab-content active">
+        <p
+          class="font-dark-blue"
+          style="font-size: xx-large; font-weight: bolder"
+        >
+          Why offense for defense?
+        </p>
+        <p>
+          Even the very strongest ‘detect-and-respond’ solutions that leverage
+          analytical models to do their work leave defenders on the backfoot,
+          playing a reactive game of catch up.
+        </p>
+        <p>
+          Automated attacks need automated solutions that impair adversary
+          operations in actual real-time.
+        </p>
+        <p>
+          Ridgeback uses offensive techniques scaled and automated for defense
+          to counter-engage adversary exploitation autonomously in actual
+          real-time, a new addition to cyber defense capabilities.
+        </p>
+        <p
+          class="font-dark-blue"
+          style="font-size: xx-large; font-weight: bolder; text-align: center"
+        >
+          Never bring a knife to a gunfight, and definitely… <br />
+          DON’T BRING AFTER-THE-FACT DETECTION TO A REAL-TIME CYBERWAR
+        </p>
+      </div>
+      <div id="tab-b-content" class="tab-content">
         <p
           class="font-dark-blue"
           style="font-size: xx-large; font-weight: bolder; padding-bottom: 32px"
@@ -859,6 +905,72 @@
       // Initialize the slideshow
       showSlide(slideIndex);
       startTimer();
+    </script>
+    <script>
+      // Get all tab buttons and content divs
+      const tabs = document.querySelectorAll(".tab");
+      const contents = document.querySelectorAll(".tab-content");
+
+      // Add click event to each tab
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => {
+          // Remove 'active' class from all tabs and content
+          tabs.forEach((t) => t.classList.remove("active"));
+          contents.forEach((c) => c.classList.remove("active"));
+
+          // Add 'active' class to the clicked tab and corresponding content
+          tab.classList.add("active");
+          contents[index].classList.add("active");
+        });
+      });
+    </script>
+    <script>
+      // Function to scroll to the tabs section and display the selected tab
+      function scrollToTabAndShow(tabId) {
+        const targetSection = document.getElementById("tab-container");
+        const navbarHeight =
+          document.getElementById("main-navbar").offsetHeight;
+
+        // Scroll to the tabs section
+        const sectionPosition =
+          targetSection.getBoundingClientRect().top +
+          window.pageYOffset -
+          navbarHeight;
+        window.scrollTo({
+          top: sectionPosition,
+          behavior: "smooth",
+        });
+
+        // Get all tabs and contents
+        const tabs = document.querySelectorAll(".tab");
+        const contents = document.querySelectorAll(".tab-content");
+
+        // Remove 'active' class from all tabs and contents
+        tabs.forEach((tab) => tab.classList.remove("active"));
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // Show the target tab and content by adding the 'active' class
+        const selectedTab = document.getElementById(tabId);
+        if (selectedTab) {
+          selectedTab.classList.add("active");
+        }
+
+        // Assuming tab contents have the same id as the tabs,
+        // you can add a matching 'tab-content' class to the content section.
+        const selectedContent = document.querySelector(`#${tabId}-content`);
+        if (selectedContent) {
+          selectedContent.classList.add("active");
+        }
+      }
+
+      // Event listeners for the pictures
+      document.getElementById("picture-a").addEventListener("click", () => {
+        scrollToTabAndShow("tab-a");
+      });
+
+      document.getElementById("picture-b").addEventListener("click", () => {
+        scrollToTabAndShow("tab-b");
+      });
     </script>
   </body>
 </html>
